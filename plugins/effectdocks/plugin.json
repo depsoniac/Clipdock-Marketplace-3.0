@@ -44,7 +44,7 @@
   },
   "release": {
     "mode": "github-latest-release",
-    "assetName": "effectdocks-1.0.0.zip"
+    "assetPattern": "effectdocks-*.zip"
   },
   "enabled": true
 }
