@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
+  <title id="t">Shuttle</title><desc id="d">Transferencia de contenido entre aplicaciones Adobe</desc>
+  <defs><linearGradient id="b" x1="18" y1="18" x2="238" y2="238"><stop stop-color="#302117"/><stop offset="1" stop-color="#21182b"/></linearGradient><linearGradient id="a" x1="45" y1="65" x2="214" y2="192"><stop stop-color="#ffab5b"/><stop offset="1" stop-color="#ffd06a"/></linearGradient></defs>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#b)" stroke="#c8793e" stroke-width="6"/>
+  <rect x="38" y="62" width="72" height="132" rx="18" fill="#24243d" stroke="#a48cff" stroke-width="6"/><rect x="146" y="62" width="72" height="132" rx="18" fill="#252d3c" stroke="#8da6ff" stroke-width="6"/>
+  <path d="M58 94h33M58 119h24M165 94h33M174 119h24" stroke="#e4e1ff" stroke-opacity=".7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M74 152h112l-22-22 14-14 47 47-47 47-14-14 22-22H74z" fill="url(#a)"/>
+  <path d="M182 104H70l22-22-14-14-47 47 47 47 14-14-22-22h112z" fill="#ff8b54" opacity=".9"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">ClipdockBoard</title><desc id="desc">Un pizarrón creativo de notas y trazos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e121b"/><stop offset=".55" stop-color="#20243a"/><stop offset="1" stop-color="#221c35"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="974" cy="195" r="195" fill="#c9ff3d" opacity=".12" filter="url(#soft)"/>
+  <path d="M606 401c154-50 247 48 392-72 73-60 131-65 202-46" fill="none" stroke="#c9ff3d" stroke-width="2" opacity=".22"/>
+  <g transform="translate(690 53)">
+    <rect x="29" y="30" width="379" height="362" rx="29" fill="#30384e" stroke="#a9b8df" stroke-opacity=".36"/>
+    <g fill="#8490ae" opacity=".5"><circle cx="70" cy="71" r="2"/><circle cx="110" cy="71" r="2"/><circle cx="150" cy="71" r="2"/><circle cx="190" cy="71" r="2"/><circle cx="230" cy="71" r="2"/><circle cx="270" cy="71" r="2"/><circle cx="310" cy="71" r="2"/><circle cx="350" cy="71" r="2"/><circle cx="70" cy="111" r="2"/><circle cx="110" cy="111" r="2"/><circle cx="150" cy="111" r="2"/><circle cx="190" cy="111" r="2"/><circle cx="230" cy="111" r="2"/><circle cx="270" cy="111" r="2"/><circle cx="310" cy="111" r="2"/><circle cx="350" cy="111" r="2"/></g>
+    <rect x="71" y="103" width="155" height="139" rx="17" fill="#ffe17d" transform="rotate(-6 71 103)"/>
+    <rect x="215" y="147" width="145" height="135" rx="17" fill="#a993ff" transform="rotate(7 215 147)"/>
+    <rect x="100" y="251" width="151" height="101" rx="17" fill="#ffc68d" transform="rotate(4 100 251)"/>
+    <path d="M103 146c22-26 47 18 68-2s27-15 39 7M126 180c16-15 31-12 43 7s29-1 38-11M250 196c18 7 20 27 41 26 14-1 26-17 40-9" fill="none" stroke="#24263a" stroke-width="8" stroke-linecap="round"/>
+    <path d="m300 325 74-74 19 19-74 74-35 10z" fill="#fff"/><path d="m300 325 19 19-35 10z" fill="#e0d3ff"/>
+    <circle cx="376" cy="66" r="28" fill="#c9ff3d"/><path d="M376 52v28M362 66h28" stroke="#17241f" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

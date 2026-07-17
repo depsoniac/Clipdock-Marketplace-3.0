@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Audify</title><desc id="desc">Una consola visual de volumen y ducking.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09111d"/><stop offset=".55" stop-color="#0b2030"/><stop offset="1" stop-color="#171339"/></linearGradient>
+    <linearGradient id="meter" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#5edfff"/><stop offset=".75" stop-color="#6d9cff"/><stop offset="1" stop-color="#bc90ff"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <ellipse cx="980" cy="260" rx="275" ry="178" fill="#5ccfff" opacity=".12" filter="url(#glow)"/>
+  <path d="M598 112c142 93 204 71 302 20 113-58 204-21 316 61" fill="none" stroke="#65dfff" stroke-width="2" opacity=".22"/>
+  <g transform="translate(679 66)">
+    <rect x="0" y="40" width="443" height="338" rx="30" fill="#102333" stroke="#65dfff" stroke-opacity=".45" stroke-width="2"/>
+    <rect x="34" y="74" width="170" height="236" rx="22" fill="#091521"/>
+    <g fill="url(#meter)"><rect x="57" y="210" width="20" height="70" rx="10"/><rect x="89" y="151" width="20" height="129" rx="10"/><rect x="121" y="109" width="20" height="171" rx="10"/><rect x="153" y="174" width="20" height="106" rx="10"/></g>
+    <g transform="translate(235 72)"><circle cx="86" cy="85" r="70" fill="#162e41" stroke="#75e5ff" stroke-opacity=".55" stroke-width="5"/><path d="M50 97h26l34 28V45L76 73H50z" fill="#dff8ff"/><path d="M130 63c18 17 18 28 0 45M145 47c28 28 28 49 0 77" fill="none" stroke="#b895ff" stroke-width="8" stroke-linecap="round"/><path d="M20 205c56-38 81 33 137-10 38-30 57-3 74 5" fill="none" stroke="#c9ff3d" stroke-width="8" stroke-linecap="round"/></g>
+    <rect x="33" y="331" width="376" height="14" rx="7" fill="#233c4c"/><rect x="33" y="331" width="246" height="14" rx="7" fill="#c9ff3d"/><circle cx="279" cy="338" r="14" fill="#e9ffd0" stroke="#c9ff3d" stroke-width="6"/>
+  </g>
+  <g fill="#a88dff" opacity=".78"><circle cx="634" cy="168" r="4"/><circle cx="615" cy="212" r="3"/><circle cx="650" cy="258" r="5"/></g>
+</svg>

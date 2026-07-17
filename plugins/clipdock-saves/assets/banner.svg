@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">ClipDock Saves</title><desc id="desc">Un sistema visual de referencias guardadas y sincronizadas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090f18"/><stop offset=".58" stop-color="#101c2b"/><stop offset="1" stop-color="#15112b"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263c53"/><stop offset="1" stop-color="#142333"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="1012" cy="211" r="182" fill="#57d9ff" opacity=".14" filter="url(#glow)"/>
+  <path d="M609 437C774 331 888 404 1211 180" fill="none" stroke="#58d9ff" stroke-width="2" opacity=".22"/>
+  <g transform="translate(698 71)">
+    <rect x="0" y="55" width="210" height="278" rx="25" fill="#172a3a" stroke="#5adfff" stroke-opacity=".38" transform="rotate(-10 0 55)"/>
+    <rect x="33" y="17" width="224" height="292" rx="27" fill="url(#card)" stroke="#86e8ff" stroke-opacity=".55" transform="rotate(5 33 17)"/>
+    <rect x="94" y="50" width="236" height="307" rx="28" fill="#1a3042" stroke="#6de0ff" stroke-width="2"/>
+    <path d="M152 102h119v164l-59-37-60 37z" fill="#67ddff"/>
+    <path d="M180 143h64M180 174h64M180 205h42" stroke="#102231" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="292" cy="277" r="31" fill="#c9ff3d"/>
+    <path d="m278 278 10 10 20-23" fill="none" stroke="#13201f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M333 124c28-26 71 0 54 31 34-10 47 42 17 52H339c-34 0-39-45-9-54 0-11 1-21 3-29Z" fill="#a48cff" opacity=".9"/>
+    <path d="M356 185v57M330 213h54" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g fill="#61dfff" opacity=".85"><circle cx="656" cy="135" r="5"/><circle cx="622" cy="188" r="3"/><circle cx="676" cy="233" r="4"/></g>
+</svg>

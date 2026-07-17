@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
+  <title id="t">ClipdockBoard</title><desc id="d">Notas post-it y dibujo</desc>
+  <defs><linearGradient id="b" x1="18" y1="18" x2="238" y2="238"><stop stop-color="#17231a"/><stop offset="1" stop-color="#18182b"/></linearGradient></defs>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#b)" stroke="#8ebc36" stroke-width="6"/>
+  <path d="M47 58h111v111l-28 28H47z" fill="#c9ff3d"/><path d="M130 169v28l28-28z" fill="#6f9124"/>
+  <path d="M72 91h60M72 118h43M72 145h52" stroke="#18211d" stroke-width="10" stroke-linecap="round"/>
+  <path d="m117 202 72-72 24 24-72 72-37 12z" fill="#9a88ff"/><path d="m189 130 12-12 24 24-12 12z" fill="#f3f1ff"/>
+  <path d="m104 238 13-36 24 24z" fill="#ffd89c"/>
+</svg>

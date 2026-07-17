@@ -1,0 +1,52 @@
+{
+  "schema": "clipdock.plugin.v1",
+  "id": "clipdock-postits",
+  "slug": "clipdock-postits",
+  "name": "ClipdockBoard",
+  "author": "Depson",
+  "category": "clipdock-utility",
+  "type": "clipdock-window",
+  "minClipDockVersion": "1.6.3",
+  "version": "0.1.0",
+  "summary": "Pizarron para notas post-it y dibujo a mano dentro de ClipDock.",
+  "description": "Pizarron acoplable de ClipDock: crea, mueve, colorea y redimensiona notas tipo post-it, y dibuja a mano alzada con lapiz, marcador y borrador. Fondo de puntos, exporta el pizarron como imagen y todo se guarda solo.",
+  "installMode": "clipdock-window",
+  "installDirName": "clipdock-postits",
+  "windowEntry": "index.html",
+  "window": {
+    "width": 920,
+    "height": 680
+  },
+  "tags": [
+    "Docklet",
+    "ClipDock",
+    "Notas",
+    "Productividad",
+    "Postits"
+  ],
+  "images": {
+    "logo": "assets/logo.svg",
+    "banner": "assets/banner.svg"
+  },
+  "creator": {
+    "handle": "depsoniac",
+    "name": "Depson",
+    "github": "https://github.com/depsoniac",
+    "avatar": "https://github.com/depsoniac.png",
+    "instagram": "https://www.instagram.com/depsonop/",
+    "twitter": "https://x.com/depsonop"
+  },
+  "repo": "https://github.com/depsonopsito/Clipdock-Postits",
+  "repository": {
+    "provider": "github",
+    "owner": "depsonopsito",
+    "repo": "Clipdock-Postits"
+  },
+  "release": {
+    "mode": "github-latest-release",
+    "assetPattern": "clipdock-postits-*.zip"
+  },
+  "links": {
+    "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/latest"
+  }
+}
