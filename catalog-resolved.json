@@ -153,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T01:24:39.000Z",
+  "generatedAt": "2026-07-17T18:59:42.000Z",
   "registryMode": "resolved-folder-index",
   "plugins": [
     {
@@ -864,26 +864,35 @@
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": ""
+        "resolvedAt": "2026-07-17T18:59:42Z"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "",
-      "fileName": "",
-      "sha256": "",
-      "sizeLabel": "",
-      "package": {},
+      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.1.0/effectdocks-1.1.0.zip",
+      "fileName": "effectdocks-1.1.0.zip",
+      "sha256": "d247f051f4cc4720a1df4ff2508e5337e40e7991ae96bbab39d6d7b8a986191b",
+      "sizeLabel": "39.3 MB",
+      "package": {
+        "format": "zip",
+        "file": "effectdocks-1.1.0.zip",
+        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.1.0/effectdocks-1.1.0.zip",
+        "sha256": "d247f051f4cc4720a1df4ff2508e5337e40e7991ae96bbab39d6d7b8a986191b",
+        "sizeBytes": 41161082,
+        "sizeLabel": "39.3 MB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-17T18:59:42Z"
+      },
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "EffectDocks",
         "tag": "v1.1.0",
         "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.1.0",
-        "publishedAt": ""
+        "publishedAt": "2026-07-17T18:59:42Z"
       },
-      "available": false,
-      "releaseError": "El release no contiene el asset declarado: effectdocks-1.0.0.zip",
+      "available": true,
+      "releaseError": "",
       "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/",
       "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/plugin.json"
     },
