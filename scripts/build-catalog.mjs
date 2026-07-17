@@ -26,7 +26,7 @@ const CONFIG_FILE = path.join(ROOT, 'catalog.json');
 const RESOLVED_FILE = path.join(ROOT, 'catalog-resolved.json');
 const INDEX_FILE = path.join(PLUGINS_DIR, 'index.json');
 
-const RAW_BASE = 'https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-2.0/main/plugins';
+const RAW_BASE = 'https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const GITHUB_API_ATTEMPTS = 3;
 const GITHUB_API_RETRY_MS = 1200;

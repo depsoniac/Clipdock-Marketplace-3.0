@@ -2,10 +2,10 @@
   "schema": "clipdock.registry.v2",
   "registryVersion": 2,
   "updatedAt": "2026-07-12",
-  "name": "ClipDock Marketplace 2.0",
+  "name": "ClipDock Marketplace 3.0",
   "discovery": {
     "type": "folder-index",
-    "pluginsFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-2.0/main/plugins/",
+    "pluginsFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/",
     "folderIndexFile": "index.json",
     "manifestFile": "plugin.json"
   },
@@ -43,6 +43,7 @@
         "clipdock-track",
         "audify",
         "premiere-hybrid-organizer",
+        "effectdocks",
         "mediavault"
       ]
     },

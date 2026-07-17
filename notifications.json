@@ -106,7 +106,7 @@
         "createdAt": "2026-07-15T00:20:00.000Z",
         "action": {
           "type": "open-url",
-          "url": "https://github.com/depsoniac/Clipdock-Marketplace-2.0"
+          "url": "https://github.com/depsoniac/Clipdock-Marketplace-3.0"
         }
       }
     ]
@@ -122,7 +122,7 @@
       "title": "ClipDock 2.0 ya está aquí",
       "message": "Una nueva etapa para ClipDock: amplía tu flujo con doclets, respaldo en la nube y control de componentes, modelos y almacenamiento desde un solo lugar.",
       "image": {
-        "url": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-2.0/main/plugins/clipdock-postits/assets/banner.svg",
+        "url": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/banner.svg",
         "alt": "ClipdockBoard, el nuevo doclet de pizarrón de ClipDock"
       },
       "changelog": [
