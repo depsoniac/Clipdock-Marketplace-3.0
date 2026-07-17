@@ -153,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T22:11:49.000Z",
+  "generatedAt": "2026-07-17T23:35:41.000Z",
   "registryMode": "resolved-folder-index",
   "plugins": [
     {
@@ -814,7 +814,7 @@
       "category": "premiere",
       "type": "clipdock-symbiont",
       "installMode": "clipdock-symbiont",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "minClipDockVersion": "2.0.0",
       "summary": "Busca, previsualiza y aplica efectos de Premiere desde ClipDock en perfecta sincronía.",
       "description": "Sistema bidireccional para Premiere Pro y ClipDock. Abre la búsqueda con Ctrl + Espacio, filtra efectos en ambas interfaces, reproduce sus previews animadas y permite aplicar cualquier efecto al clip seleccionado desde Premiere o desde el doclet. Incluye favoritos y restablecimiento automático después de aplicar.",
@@ -860,36 +860,36 @@
       },
       "links": {
         "github": "https://github.com/depsonopsito/EffectDocks",
-        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.2.0"
+        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.0"
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": "2026-07-17T22:11:49Z"
+        "resolvedAt": "2026-07-17T23:35:41Z"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.2.0/effectdocks-1.2.0.zip",
-      "fileName": "effectdocks-1.2.0.zip",
-      "sha256": "221448e7c726babfb83f31af05e70e74ea0344499a2d571652afb709f989e30e",
+      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.0/effectdocks-1.3.0-reconstruido.zip",
+      "fileName": "effectdocks-1.3.0-reconstruido.zip",
+      "sha256": "f98e98fc4e42b66b16b77ed8392ff08f483db02d206b759dcb3ef1fe3266aaca",
       "sizeLabel": "39.3 MB",
       "package": {
         "format": "zip",
-        "file": "effectdocks-1.2.0.zip",
-        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.2.0/effectdocks-1.2.0.zip",
-        "sha256": "221448e7c726babfb83f31af05e70e74ea0344499a2d571652afb709f989e30e",
-        "sizeBytes": 41165280,
+        "file": "effectdocks-1.3.0-reconstruido.zip",
+        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.0/effectdocks-1.3.0-reconstruido.zip",
+        "sha256": "f98e98fc4e42b66b16b77ed8392ff08f483db02d206b759dcb3ef1fe3266aaca",
+        "sizeBytes": 41169982,
         "sizeLabel": "39.3 MB",
         "source": "github-release-asset",
-        "updatedAt": "2026-07-17T22:11:49Z"
+        "updatedAt": "2026-07-17T23:35:41Z"
       },
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "EffectDocks",
-        "tag": "v1.2.0",
-        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.2.0",
-        "publishedAt": "2026-07-17T22:11:49Z"
+        "tag": "v1.3.0",
+        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.0",
+        "publishedAt": "2026-07-17T23:35:41Z"
       },
       "available": true,
       "releaseError": "",
