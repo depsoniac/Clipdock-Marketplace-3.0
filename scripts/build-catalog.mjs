@@ -254,7 +254,12 @@ function hostSet(plugin) {
 function isAfterEffects(plugin) { return hostSet(plugin).has('after effects'); }
 function isPremiere(plugin) { const h = hostSet(plugin); return h.has('premiere pro') || h.has('premiere'); }
 function isPsAi(plugin) { const h = hostSet(plugin); return h.has('illustrator') || h.has('photoshop'); }
-function isDocklet(plugin) { return plugin.type === 'clipdock-window' || plugin.installMode === 'clipdock-window'; }
+function isDocklet(plugin) {
+  return plugin.type === 'clipdock-window'
+    || plugin.type === 'clipdock-symbiont'
+    || plugin.installMode === 'clipdock-window'
+    || plugin.installMode === 'clipdock-symbiont';
+}
 
 function buildSections(baseUi, plugins) {
   const ids = list => list.map(p => p.id);
