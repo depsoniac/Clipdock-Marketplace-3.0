@@ -40,20 +40,32 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generar catalogo
+      - name: Generar y publicar catalogo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/build-catalog.mjs
-
-      - name: Commitear cambios (si los hay)
         run: |
           git config user.name "clipdock-catalog-bot"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain catalog-resolved.json plugins/index.json)" ]; then
+          for attempt in 1 2 3; do
+            echo "Intento $attempt: generando desde el main remoto mas reciente..."
+            git fetch origin main
+            git checkout -B main origin/main
+            node scripts/build-catalog.mjs
+
+            if [ -z "$(git status --porcelain catalog-resolved.json plugins/index.json)" ]; then
+              echo "Sin cambios reales en el catalogo."
+              exit 0
+            fi
+
             git add catalog-resolved.json plugins/index.json
             git commit -m "chore(catalog): regenerar catalogo [skip ci]"
-            git push
-            echo "Catalogo actualizado y subido."
-          else
-            echo "Sin cambios en el catalogo."
-          fi
+            if git push origin main; then
+              echo "Catalogo actualizado y subido."
+              exit 0
+            fi
+
+            echo "main cambio durante la corrida; reintentando sin hacer merge..."
+          done
+
+          echo "No se pudo publicar tras 3 intentos. La siguiente corrida volvera a intentar."
+          exit 1

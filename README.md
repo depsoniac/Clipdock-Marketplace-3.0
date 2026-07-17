@@ -70,3 +70,14 @@ carpetas), y los sube solo. Es gratis: en repos publicos, Actions es ilimitado.
 | `catalog-resolved.json` | Catalogo final que lee la app | **El robot** (no editar) |
 | `plugins/index.json` | Indice de carpetas | **El robot** (no editar) |
 | `scripts/build-catalog.mjs` | El robot | — |
+
+## Regla para evitar conflictos
+
+`catalog-resolved.json` y `plugins/index.json` son salidas generadas: no se editan
+ni se incluyen en commits manuales. Los cambios humanos se hacen únicamente en
+`catalog.json`, `plugins/*/plugin.json`, recursos y scripts. GitHub Actions parte
+siempre del `main` remoto más reciente y publica esos dos archivos.
+
+El generador es determinista: si no cambió un manifiesto ni apareció un release,
+dos ejecuciones producen exactamente los mismos archivos y el robot no crea un
+commit vacío provocado solamente por fechas nuevas.

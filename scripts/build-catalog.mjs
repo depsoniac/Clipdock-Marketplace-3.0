@@ -217,7 +217,9 @@ function buildResolvedPlugin(plugin, folder, release) {
     logoUrl: resolveAssetUrl(images.logo, folder),
     bannerUrl: resolveAssetUrl(images.banner, folder),
     screenshotUrls: Array.isArray(images.screenshots) ? images.screenshots.map(s => resolveAssetUrl(s, folder)).filter(Boolean) : [],
-    release: { mode: 'resolved', resolvedAt: new Date().toISOString() },
+    // Debe ser estable: una ejecución sin releases nuevos tiene que producir
+    // exactamente el mismo JSON. La fecha real del release ya viene de GitHub.
+    release: { mode: 'resolved', resolvedAt: release.publishedAt || '' },
     downloadUrl: release.downloadUrl || '',
     fileName: release.fileName || '',
     sha256: release.sha256 || '',
@@ -275,6 +277,20 @@ function buildSections(baseUi, plugins) {
     { id: 'clipdock-utility', title: 'Docklets', subtitle: 'Mini ventanas acoplables que expanden la barra lateral de ClipDock.', filter: 'clipdock-utility', actionLabel: 'Abrir Docklets', plugins: ids(plugins.filter(isDocklet)) }
   ];
   return sections.filter(s => s.plugins.length);
+}
+
+function stableCatalogTimestamp(config, plugins) {
+  const candidates = [];
+  if (config.updatedAt) candidates.push(String(config.updatedAt));
+  for (const plugin of plugins) {
+    if (plugin.releaseInfo && plugin.releaseInfo.publishedAt) candidates.push(String(plugin.releaseInfo.publishedAt));
+    if (plugin.package && plugin.package.updatedAt) candidates.push(String(plugin.package.updatedAt));
+  }
+  const normalized = candidates.map(value => {
+    const parsed = new Date(value);
+    return Number.isNaN(parsed.getTime()) ? '' : parsed.toISOString();
+  }).filter(Boolean).sort();
+  return normalized[normalized.length - 1] || '1970-01-01T00:00:00.000Z';
 }
 
 async function main() {
@@ -345,8 +361,9 @@ async function main() {
     throw new Error('No se publico un catalogo incompleto. Fallos temporales:\n- ' + transientFailures.join('\n- '));
   }
 
-  const today = new Date().toISOString().slice(0, 10);
-  const indexOut = { schema: 'clipdock.registry.index.v1', updatedAt: today, folders };
+  const generatedAt = stableCatalogTimestamp(config, resolved);
+  const stableDate = generatedAt.slice(0, 10);
+  const indexOut = { schema: 'clipdock.registry.index.v1', updatedAt: stableDate, folders };
   fs.writeFileSync(INDEX_FILE, JSON.stringify(indexOut, null, 2) + '\n', 'utf8');
 
   const ui = { ...(config.ui || {}) };
@@ -354,11 +371,11 @@ async function main() {
   const resolvedOut = {
     schema: config.schema || 'clipdock.registry.v2',
     registryVersion: config.registryVersion || 2,
-    updatedAt: today,
+    updatedAt: stableDate,
     name: config.name || 'ClipDock Marketplace 2.0',
     discovery: config.discovery || {},
     ui,
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     registryMode: 'resolved-folder-index',
     plugins: resolved
   };
