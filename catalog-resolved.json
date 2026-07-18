@@ -153,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-18T00:24:32.000Z",
+  "generatedAt": "2026-07-18T01:13:25.000Z",
   "registryMode": "resolved-folder-index",
   "plugins": [
     {
@@ -814,7 +814,7 @@
       "category": "premiere",
       "type": "clipdock-symbiont",
       "installMode": "clipdock-symbiont",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "minClipDockVersion": "2.0.0",
       "summary": "Busca, previsualiza y aplica efectos de Premiere desde ClipDock en perfecta sincronía.",
       "description": "Sistema bidireccional para Premiere Pro y ClipDock. Abre la búsqueda con Ctrl + Espacio, filtra efectos en ambas interfaces, reproduce sus previews animadas y permite aplicar cualquier efecto al clip seleccionado desde Premiere o desde el doclet. Incluye favoritos y restablecimiento automático después de aplicar.",
@@ -860,36 +860,36 @@
       },
       "links": {
         "github": "https://github.com/depsonopsito/EffectDocks",
-        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.1"
+        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.2"
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": "2026-07-18T00:24:32Z"
+        "resolvedAt": "2026-07-18T01:13:25Z"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.1/effectdocks-1.3.1-barra-compacta.zip",
-      "fileName": "effectdocks-1.3.1-barra-compacta.zip",
-      "sha256": "7b751025a671d06f7f4a26bd09a2612b7aa210740062c8741c2b6169ca579e4b",
+      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.2/effectdocks-1.3.2-idiomas-y-plugins-externos.zip",
+      "fileName": "effectdocks-1.3.2-idiomas-y-plugins-externos.zip",
+      "sha256": "f8f5b3bdd189e6d92afbe7c8794e79c2ca36795422845ac3d3a6ec1498003b1a",
       "sizeLabel": "39.2 MB",
       "package": {
         "format": "zip",
-        "file": "effectdocks-1.3.1-barra-compacta.zip",
-        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.1/effectdocks-1.3.1-barra-compacta.zip",
-        "sha256": "7b751025a671d06f7f4a26bd09a2612b7aa210740062c8741c2b6169ca579e4b",
-        "sizeBytes": 41140387,
+        "file": "effectdocks-1.3.2-idiomas-y-plugins-externos.zip",
+        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.2/effectdocks-1.3.2-idiomas-y-plugins-externos.zip",
+        "sha256": "f8f5b3bdd189e6d92afbe7c8794e79c2ca36795422845ac3d3a6ec1498003b1a",
+        "sizeBytes": 41150122,
         "sizeLabel": "39.2 MB",
         "source": "github-release-asset",
-        "updatedAt": "2026-07-18T00:24:32Z"
+        "updatedAt": "2026-07-18T01:13:25Z"
       },
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "EffectDocks",
-        "tag": "v1.3.1",
-        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.1",
-        "publishedAt": "2026-07-18T00:24:32Z"
+        "tag": "v1.3.2",
+        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.2",
+        "publishedAt": "2026-07-18T01:13:25Z"
       },
       "available": true,
       "releaseError": "",
