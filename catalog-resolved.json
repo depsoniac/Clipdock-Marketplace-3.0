@@ -153,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-19T03:36:44.000Z",
+  "generatedAt": "2026-07-19T04:25:32.000Z",
   "registryMode": "resolved-folder-index",
   "plugins": [
     {
@@ -482,7 +482,7 @@
       "category": "clipdock-utility",
       "type": "clipdock-window",
       "minClipDockVersion": "1.6.3",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "summary": "Pizarron para notas post-it y dibujo a mano dentro de ClipDock.",
       "description": "Pizarron acoplable de ClipDock: crea, mueve, colorea y redimensiona notas tipo post-it, y dibuja a mano alzada con lapiz, marcador y borrador. Fondo de puntos, exporta el pizarron como imagen y todo se guarda solo.",
       "installMode": "clipdock-window",
@@ -519,35 +519,35 @@
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": "2026-07-19T03:36:44Z"
+        "resolvedAt": "2026-07-19T04:25:32Z"
       },
       "links": {
-        "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.5.0"
+        "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.5.0/clipdock-postits-0.4.0-imagenes-anotables.zip",
-      "fileName": "clipdock-postits-0.4.0-imagenes-anotables.zip",
-      "sha256": "55b76b465cc7497501cf35b83a7935959897ad81194db911a8c7222ff39a8d65",
-      "sizeLabel": "13.5 KB",
+      "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.6.0/clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+      "fileName": "clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+      "sha256": "3f93d19fad1e0bfe31d5729ec24c01714c1c2b972eadf624e1a5718001a82d24",
+      "sizeLabel": "13.9 KB",
       "package": {
         "format": "zip",
-        "file": "clipdock-postits-0.4.0-imagenes-anotables.zip",
-        "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.5.0/clipdock-postits-0.4.0-imagenes-anotables.zip",
-        "sha256": "55b76b465cc7497501cf35b83a7935959897ad81194db911a8c7222ff39a8d65",
-        "sizeBytes": 13803,
-        "sizeLabel": "13.5 KB",
+        "file": "clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.6.0/clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+        "sha256": "3f93d19fad1e0bfe31d5729ec24c01714c1c2b972eadf624e1a5718001a82d24",
+        "sizeBytes": 14225,
+        "sizeLabel": "13.9 KB",
         "source": "github-release-asset",
-        "updatedAt": "2026-07-19T03:36:44Z"
+        "updatedAt": "2026-07-19T04:25:32Z"
       },
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "Clipdock-Postits",
-        "tag": "v1.5.0",
-        "url": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.5.0",
-        "publishedAt": "2026-07-19T03:36:44Z"
+        "tag": "v1.6.0",
+        "url": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0",
+        "publishedAt": "2026-07-19T04:25:32Z"
       },
       "available": true,
       "releaseError": "",
