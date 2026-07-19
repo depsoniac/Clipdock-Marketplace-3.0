@@ -1,22 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">ClipDock Remote</title><desc id="desc">Una conexión visual entre ClipDock y las aplicaciones de Adobe.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1291.08 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d120b"/><stop offset=".55" stop-color="#1b2510"/><stop offset="1" stop-color="#191533"/></linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c9ff3d" stop-opacity="0"/><stop offset=".45" stop-color="#c9ff3d"/><stop offset="1" stop-color="#9b86ff"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="25"/></filter>
+    <style>
+      .st0 {
+        fill: #63547f;
+      }
+
+      .st1 {
+        fill: #17231a;
+      }
+
+      .st1, .st2, .st3 {
+        stroke-width: 2px;
+      }
+
+      .st1, .st4 {
+        stroke: #c9ff3d;
+      }
+
+      .st1, .st3 {
+        stroke-opacity: .62;
+      }
+
+      .st5 {
+        fill: #263d1c;
+      }
+
+      .st6, .st7 {
+        fill: #c9ff3d;
+      }
+
+      .st8 {
+        fill: #332956;
+      }
+
+      .st2 {
+        opacity: .22;
+      }
+
+      .st2, .st9 {
+        fill: none;
+      }
+
+      .st2, .st9, .st3 {
+        stroke: #a793ff;
+      }
+
+      .st2, .st10, .st7 {
+        isolation: isolate;
+      }
+
+      .st4, .st9 {
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+
+      .st10 {
+        fill: #b8a3ff;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 44px;
+        font-weight: 700;
+      }
+
+      .st11 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st7 {
+        opacity: .12;
+      }
+
+      .st12 {
+        fill: #547542;
+      }
+
+      .st3 {
+        fill: #211b36;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-318.82" y1="798.96" x2="-317.82" y2="797.96" gradientTransform="translate(382625.6984 415459.5) scale(1200 -520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d120b"/>
+      <stop offset=".55" stop-color="#1b2510"/>
+      <stop offset="1" stop-color="#191533"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-  <ellipse cx="960" cy="243" rx="270" ry="180" fill="#c9ff3d" opacity=".12" filter="url(#glow)"/>
-  <path d="M569 372c155-99 230-115 338-43 105 70 203 21 312-71" fill="none" stroke="#a793ff" stroke-width="2" opacity=".22"/>
-  <g transform="translate(703 72)">
-    <rect x="0" y="31" width="166" height="266" rx="28" fill="#17231a" stroke="#c9ff3d" stroke-opacity=".62" stroke-width="2"/>
-    <rect x="270" y="31" width="166" height="266" rx="28" fill="#211b36" stroke="#a793ff" stroke-opacity=".62" stroke-width="2"/>
-    <rect x="42" y="76" width="82" height="82" rx="20" fill="#263d1c"/><path d="M62 130h42M83 109v42" stroke="#c9ff3d" stroke-width="8" stroke-linecap="round"/>
-    <rect x="312" y="76" width="82" height="82" rx="20" fill="#332956"/><path d="M333 118c21-22 42-22 62 0M333 139c21 22 42 22 62 0" fill="none" stroke="#b9a7ff" stroke-width="7" stroke-linecap="round"/>
-    <rect x="36" y="188" width="94" height="14" rx="7" fill="#547542"/><rect x="306" y="188" width="94" height="14" rx="7" fill="#63547f"/>
-    <path d="M167 164h102" stroke="url(#beam)" stroke-width="10" stroke-linecap="round"/>
-    <path d="m245 138 36 26-36 26z" fill="#c9ff3d"/>
-    <path d="M274 103c34 31 34 91 0 122M294 83c54 49 54 133 0 182" fill="none" stroke="#a793ff" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="218" cy="164" r="43" fill="#c9ff3d" opacity=".16" filter="url(#glow)"/>
+  <rect class="st11" x="39.88" width="1200" height="520" rx="28" ry="28"/>
+  <ellipse class="st7" cx="864.61" cy="247.23" rx="338.59" ry="225.72"/>
+  <path class="st2" d="M.31,509.88c307.71-99,456.6-115,671-43,208.45,70,403,21,619.38-71"/>
+  <g>
+    <rect class="st1" x="635.71" y="114.23" width="166" height="266" rx="28" ry="28"/>
+    <rect class="st3" x="960.81" y="114.23" width="166" height="266" rx="28" ry="28"/>
+    <rect class="st5" x="677.71" y="141.73" width="82" height="82" rx="19.27" ry="19.27"/>
+    <path class="st9" d="M874.26,179.23c34,31,34,91,0,122M894.26,149.23c54,49,54,133,0,182"/>
+    <rect class="st8" x="1002.81" y="159.23" width="82" height="82" rx="20" ry="20"/>
+    <path class="st12" d="M678.71,240.23h80c3.87,0,7,3.13,7,7h0c0,3.87-3.13,7-7,7h-80c-3.87,0-7-3.13-7-7h0c0-3.87,3.13-7,7-7Z"/>
+    <path class="st0" d="M1003.81,271.23h80c3.87,0,7,3.13,7,7h0c0,3.87-3.13,7-7,7h-80c-3.87,0-7-3.13-7-7h0c0-3.87,3.13-7,7-7Z"/>
+    <path class="st6" d="M842.86,215.23l36,26-36,26v-52Z"/>
+    <rect class="st5" x="677.71" y="271.23" width="82" height="82" rx="20" ry="20"/>
+    <path class="st4" d="M697.71,182.73h42M718.71,161.73v42M697.71,312.23h42"/>
   </g>
+  <text class="st10" transform="translate(1020.3896 214.2308)"><tspan x="0" y="0">Pr</tspan></text>
 </svg>

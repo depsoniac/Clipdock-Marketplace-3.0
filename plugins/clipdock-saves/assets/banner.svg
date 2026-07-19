@@ -1,23 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">ClipDock Saves</title><desc id="desc">Un sistema visual de referencias guardadas y sincronizadas.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1211.59 555">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090f18"/><stop offset=".58" stop-color="#101c2b"/><stop offset="1" stop-color="#15112b"/></linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263c53"/><stop offset="1" stop-color="#142333"/></linearGradient>
-    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      .st0 {
+        fill: #57d9ff;
+        opacity: .14;
+      }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st3 {
+        stroke: #13201f;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .st3, .st4, .st5 {
+        stroke-linecap: round;
+      }
+
+      .st3, .st1 {
+        fill: none;
+      }
+
+      .st4 {
+        stroke: #102231;
+        stroke-width: 10px;
+      }
+
+      .st6 {
+        fill: url(#Degradado_sin_nombre_2);
+        stroke: #86e8ff;
+        stroke-miterlimit: 4;
+        stroke-opacity: .55;
+        stroke-width: 1px;
+      }
+
+      .st7 {
+        fill: #c9ff3d;
+      }
+
+      .st8 {
+        opacity: .85;
+      }
+
+      .st9 {
+        fill: #61dfff;
+      }
+
+      .st10 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st1 {
+        opacity: .22;
+        stroke: #58d9ff;
+      }
+
+      .st1, .st11 {
+        stroke-width: 2px;
+      }
+
+      .st12 {
+        fill: #67ddff;
+      }
+
+      .st5 {
+        stroke: #fff;
+        stroke-width: 7px;
+      }
+
+      .st11 {
+        fill: #1a3042;
+        stroke: #6de0ff;
+      }
+
+      .st13 {
+        fill: #172a3a;
+        stroke: #5adfff;
+        stroke-miterlimit: 4;
+        stroke-opacity: .38;
+        stroke-width: 1px;
+      }
+
+      .st2 {
+        fill: #a48cff;
+        opacity: .9;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-358.7" y1="800.46" x2="-357.7" y2="799.46" gradientTransform="translate(430441 416241) scale(1200 -520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#090f18"/>
+      <stop offset=".58" stop-color="#101c2b"/>
+      <stop offset="1" stop-color="#15112b"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="-357.29" y1="800.16" x2="-356.29" y2="799.16" gradientTransform="translate(-232669.5067 80165.2573) rotate(90) scale(224 -292)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#263c53"/>
+      <stop offset="1" stop-color="#142333"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-  <circle cx="1012" cy="211" r="182" fill="#57d9ff" opacity=".14" filter="url(#glow)"/>
-  <path d="M609 437C774 331 888 404 1211 180" fill="none" stroke="#58d9ff" stroke-width="2" opacity=".22"/>
-  <g transform="translate(698 71)">
-    <rect x="0" y="55" width="210" height="278" rx="25" fill="#172a3a" stroke="#5adfff" stroke-opacity=".38" transform="rotate(-10 0 55)"/>
-    <rect x="33" y="17" width="224" height="292" rx="27" fill="url(#card)" stroke="#86e8ff" stroke-opacity=".55" transform="rotate(5 33 17)"/>
-    <rect x="94" y="50" width="236" height="307" rx="28" fill="#1a3042" stroke="#6de0ff" stroke-width="2"/>
-    <path d="M152 102h119v164l-59-37-60 37z" fill="#67ddff"/>
-    <path d="M180 143h64M180 174h64M180 205h42" stroke="#102231" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="292" cy="277" r="31" fill="#c9ff3d"/>
-    <path d="m278 278 10 10 20-23" fill="none" stroke="#13201f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M333 124c28-26 71 0 54 31 34-10 47 42 17 52H339c-34 0-39-45-9-54 0-11 1-21 3-29Z" fill="#a48cff" opacity=".9"/>
-    <path d="M356 185v57M330 213h54" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <rect class="st10" width="1200" height="520" rx="28" ry="28"/>
+  <circle class="st0" cx="995.43" cy="243.21" r="182"/>
+  <path class="st1" d="M387.09,554.17c225.82-154.33,381.85-48.05,823.91-374.17"/>
+  <g class="st8">
+    <circle class="st9" cx="656" cy="135" r="5"/>
+    <circle class="st9" cx="622" cy="188" r="3"/>
+    <circle class="st9" cx="676" cy="233" r="4"/>
   </g>
-  <g fill="#61dfff" opacity=".85"><circle cx="656" cy="135" r="5"/><circle cx="622" cy="188" r="3"/><circle cx="676" cy="233" r="4"/></g>
+  <g>
+    <rect class="st13" x="720.54" y="105.66" width="210" height="278" rx="25" ry="25" transform="translate(-29.94 147.07) rotate(-10)"/>
+    <rect class="st6" x="683.85" y="131.21" width="292" height="224" rx="27" ry="27" transform="translate(515.2426 1048.7003) rotate(-85)"/>
+    <rect class="st11" x="792" y="121" width="236" height="307" rx="28" ry="28"/>
+    <path class="st12" d="M824.57,173.83h170.86v164l-84.71-37-86.15,37v-164Z"/>
+    <path class="st4" d="M850.08,202h119.84M850.08,233h119.84M850.08,264h78.65"/>
+    <circle class="st7" cx="990" cy="348" r="31"/>
+    <path class="st3" d="M976,349l10,10,20-23"/>
+    <path class="st2" d="M1031,195c28-26,71,0,54,31,34-10,47,42,17,52h-65c-34,0-39-45-9-54,0-11,1-21,3-29Z"/>
+    <path class="st2" d="M1068.7,196.82c28-26,71,0,54,31,34-10,47,42,17,52h-65c-34,0-39-45-9-54,0-11,1-21,3-29Z"/>
+    <path class="st5" d="M1077.7,211v57M1051.7,239h54"/>
+  </g>
 </svg>

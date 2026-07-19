@@ -1,20 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">ClipdockBoard</title><desc id="desc">Un pizarrón creativo de notas y trazos.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1207.01 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e121b"/><stop offset=".55" stop-color="#20243a"/><stop offset="1" stop-color="#221c35"/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+    <style>
+      .st0 {
+        fill: #ffc68d;
+      }
+
+      .st1 {
+        fill: #ffe17d;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st3 {
+        fill: #c9ff3d;
+      }
+
+      .st4, .st5, .st6 {
+        isolation: isolate;
+      }
+
+      .st7 {
+        fill: #a993ff;
+      }
+
+      .st8 {
+        stroke: #17241f;
+        stroke-width: 7px;
+      }
+
+      .st8, .st9 {
+        stroke-linecap: round;
+      }
+
+      .st10 {
+        fill: #e0d3ff;
+      }
+
+      .st11 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st12 {
+        fill: #8490ae;
+      }
+
+      .st13 {
+        fill: url(#Degradado_sin_nombre_14);
+      }
+
+      .st5 {
+        opacity: .22;
+        stroke: #c9ff3d;
+        stroke-width: 2px;
+      }
+
+      .st5, .st9 {
+        fill: none;
+      }
+
+      .st14 {
+        fill: #30384e;
+        stroke: #a9b8df;
+        stroke-opacity: .36;
+      }
+
+      .st15 {
+        opacity: .5;
+      }
+
+      .st6 {
+        fill: #f5f7fb;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 53.02px;
+        font-weight: 700;
+      }
+
+      .st9 {
+        stroke: #24263a;
+        stroke-width: 8px;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-351.82" y1="800.46" x2="-350.82" y2="799.46" gradientTransform="translate(422192.413 416241) scale(1200 -520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e121b"/>
+      <stop offset=".55" stop-color="#20243a"/>
+      <stop offset="1" stop-color="#221c35"/>
+    </linearGradient>
+    <radialGradient id="Degradado_sin_nombre_14" data-name="Degradado sin nombre 14" cx="-710.52" cy="-1.96" fx="-710.52" fy="-1.96" r="1" gradientTransform="translate(-134770.5756 233532.346) rotate(120) scale(380 460)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe066" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffe066" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-  <circle cx="974" cy="195" r="195" fill="#c9ff3d" opacity=".12" filter="url(#soft)"/>
-  <path d="M606 401c154-50 247 48 392-72 73-60 131-65 202-46" fill="none" stroke="#c9ff3d" stroke-width="2" opacity=".22"/>
-  <g transform="translate(690 53)">
-    <rect x="29" y="30" width="379" height="362" rx="29" fill="#30384e" stroke="#a9b8df" stroke-opacity=".36"/>
-    <g fill="#8490ae" opacity=".5"><circle cx="70" cy="71" r="2"/><circle cx="110" cy="71" r="2"/><circle cx="150" cy="71" r="2"/><circle cx="190" cy="71" r="2"/><circle cx="230" cy="71" r="2"/><circle cx="270" cy="71" r="2"/><circle cx="310" cy="71" r="2"/><circle cx="350" cy="71" r="2"/><circle cx="70" cy="111" r="2"/><circle cx="110" cy="111" r="2"/><circle cx="150" cy="111" r="2"/><circle cx="190" cy="111" r="2"/><circle cx="230" cy="111" r="2"/><circle cx="270" cy="111" r="2"/><circle cx="310" cy="111" r="2"/><circle cx="350" cy="111" r="2"/></g>
-    <rect x="71" y="103" width="155" height="139" rx="17" fill="#ffe17d" transform="rotate(-6 71 103)"/>
-    <rect x="215" y="147" width="145" height="135" rx="17" fill="#a993ff" transform="rotate(7 215 147)"/>
-    <rect x="100" y="251" width="151" height="101" rx="17" fill="#ffc68d" transform="rotate(4 100 251)"/>
-    <path d="M103 146c22-26 47 18 68-2s27-15 39 7M126 180c16-15 31-12 43 7s29-1 38-11M250 196c18 7 20 27 41 26 14-1 26-17 40-9" fill="none" stroke="#24263a" stroke-width="8" stroke-linecap="round"/>
-    <path d="m300 325 74-74 19 19-74 74-35 10z" fill="#fff"/><path d="m300 325 19 19-35 10z" fill="#e0d3ff"/>
-    <circle cx="376" cy="66" r="28" fill="#c9ff3d"/><path d="M376 52v28M362 66h28" stroke="#17241f" stroke-width="7" stroke-linecap="round"/>
+  <rect class="st11" x="6.88" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st5" d="M.16,407c312.85-50,501.78,48,796.36-72,148.3-60,266.13-65,410.37-46"/>
+  <rect class="st13" x="6.88" width="1200" height="520" rx="28" ry="28"/>
+  <g>
+    <rect class="st14" x="756.87" y="55.77" width="379" height="362" rx="29" ry="29"/>
+    <g class="st15">
+      <circle class="st12" cx="797.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="837.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="877.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="917.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="957.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="997.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="1037.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="1077.87" cy="96.77" r="2"/>
+      <circle class="st12" cx="797.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="837.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="877.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="917.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="957.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="997.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="1037.87" cy="136.77" r="2"/>
+      <circle class="st12" cx="1077.87" cy="136.77" r="2"/>
+    </g>
+    <rect class="st1" x="805.71" y="120.28" width="155" height="139" rx="17" ry="17" transform="translate(-15 93.36) rotate(-6)"/>
+    <rect class="st7" x="939.1" y="176.1" width="135" height="145" rx="17" ry="17" transform="translate(637.1855 1217.4024) rotate(-83)"/>
+    <rect class="st0" x="849.16" y="256.91" width="101" height="151" rx="17" ry="17" transform="translate(505.3078 1206.6938) rotate(-86)"/>
+    <path class="st9" d="M831.23,187.13c14.34-16.59,25.55-14.5,49.73-8.37,16.23,4.11,21.61-18.44,60.05-6.63M828.39,160.74c22-26,47,.68,60.66-7.46,24.91-14.84,32.07-6.43,48.97-1.73M959.87,201.56c18,7,17,7.89,38,6.89,14-1,26-4.25,40,3.75,0,0,15.71,8.52,31.16,2.82"/>
+    <path class="st2" d="M1027.87,350.77l74-74,19,19-74,74-35,10,16-29Z"/>
+    <path class="st10" d="M1027.87,350.77l19,19-35,10,16-29Z"/>
+    <circle class="st3" cx="1077.87" cy="114.25" r="28"/>
+    <path class="st8" d="M1077.87,100.25v28M1063.87,113.52h28"/>
+  </g>
+  <polygon points="986.01 396.43 992.74 404.18 980.15 408.15 986.01 396.43"/>
+  <g class="st4">
+    <text class="st6" transform="translate(756.87 477.86)"><tspan x="0" y="0">ClipdockBoard</tspan></text>
   </g>
 </svg>
