@@ -1,12 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Shuttle</title><desc id="desc">Envio rapido de contenido entre aplicaciones Adobe.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#0b1017"/><stop offset=".58" stop-color="#121b27"/><stop offset="1" stop-color="#15101e"/></linearGradient><radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1000 160) rotate(120) scale(380 460)" gradientUnits="userSpaceOnUse"><stop stop-color="#ffab5b" stop-opacity=".28"/><stop offset="1" stop-color="#ffab5b" stop-opacity="0"/></radialGradient></defs>
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/><rect width="1200" height="520" rx="28" fill="url(#glow)"/>
-  <path d="M0 465C230 398 350 500 568 405s287-228 632-201" fill="none" stroke="#ffab5b" stroke-width="2" opacity=".3"/>
-  <rect x="74" y="84" width="68" height="68" rx="20" fill="#ffab5b" opacity=".95"/><text x="108" y="128" text-anchor="middle" fill="#111722" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="900">SH</text>
-  <text x="74" y="205" fill="#ffab5b" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" letter-spacing="4">MUEVE ASSETS ENTRE APPS</text>
-  <text x="74" y="278" fill="#f5f7fb" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" letter-spacing="-2">Shuttle</text>
-  <text x="78" y="324" fill="#b7c3d1" font-family="Arial,Helvetica,sans-serif" font-size="22">Envio rapido de contenido entre aplicaciones Adobe.</text>
-  <rect x='74' y='372' width='118' height='42' rx='21' fill='#161b24' stroke='#ffab5b' stroke-opacity='.55'/><text x='133' y='399' text-anchor='middle' fill='#edf4f8' font-family='Arial,Helvetica,sans-serif' font-size='14' font-weight='800' letter-spacing='1.3'>ENVIA</text><rect x='206' y='372' width='124' height='42' rx='21' fill='#161b24' stroke='#ffab5b' stroke-opacity='.55'/><text x='268' y='399' text-anchor='middle' fill='#edf4f8' font-family='Arial,Helvetica,sans-serif' font-size='14' font-weight='800' letter-spacing='1.3'>RECIBE</text><rect x='344' y='372' width='118' height='42' rx='21' fill='#161b24' stroke='#ffab5b' stroke-opacity='.55'/><text x='403' y='399' text-anchor='middle' fill='#edf4f8' font-family='Arial,Helvetica,sans-serif' font-size='14' font-weight='800' letter-spacing='1.3'>ADOBE</text>
-  <g transform='translate(842 88)'><rect width='286' height='310' rx='28' fill='#281d16' stroke='#ffab5b' stroke-opacity='.55' stroke-width='2'/><path d='M53 112h123l-28-28 17-17 58 58-58 58-17-17 28-28H53z' fill='#ffab5b'/><path d='M233 200H110l28 28-17 17-58-58 58-58 17 17-28 28h123z' fill='#ffd06a'/></g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1548.75 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f5f7fb;
+        font-size: 28.9px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st3, .st5, .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st7 {
+        fill: #ffd06a;
+      }
+
+      .st8 {
+        fill: #300;
+      }
+
+      .st9 {
+        fill: #001e36;
+      }
+
+      .st10 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st1 {
+        font-size: 20px;
+        letter-spacing: .2em;
+      }
+
+      .st1, .st11 {
+        fill: #ffab5b;
+      }
+
+      .st2 {
+        fill: #b7c3d1;
+        font-family: ArialMT, Arial;
+        font-size: 22px;
+      }
+
+      .st12 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st3 {
+        fill: #31a8ff;
+      }
+
+      .st3, .st6 {
+        font-size: 76.87px;
+      }
+
+      .st4 {
+        fill: none;
+        opacity: .3;
+      }
+
+      .st4, .st13 {
+        stroke: #ffab5b;
+        stroke-width: 2px;
+      }
+
+      .st5 {
+        fill: #99f;
+        font-size: 98px;
+      }
+
+      .st6 {
+        fill: #ff9a00;
+      }
+
+      .st14 {
+        fill: #00005b;
+      }
+
+      .st13 {
+        fill: #281d16;
+        stroke-opacity: .55;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1=".28" y1="522" x2="1200.28" y2="2" gradientTransform="translate(0 522) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1017"/>
+      <stop offset=".58" stop-color="#121b27"/>
+      <stop offset="1" stop-color="#15101e"/>
+    </linearGradient>
+    <radialGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" cx="-358.56" cy="801.98" fx="-358.56" fy="801.98" r="1" gradientTransform="translate(-386611.2918 -66297.8514) rotate(120) scale(380 -460)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffab5b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffab5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect class="st12" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <rect class="st10" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st4" d="M.28,465c230-67,350,35,568-60s287-228,632-201"/>
+  <text class="st1" transform="translate(31.08 69.55)"><tspan x="0" y="0">MUEVE ASSETS ENTRE APPS</tspan></text>
+  <text class="st2" transform="translate(26.6 100.1)"><tspan x="0" y="0">Envio rapido de contenido entre aplicaciones</tspan></text>
+  <g>
+    <rect class="st13" x="653.85" y="88" width="474.43" height="310" rx="28" ry="28"/>
+    <g>
+      <path class="st11" d="M858.04,214.38h49.24l-11.21-11.21,6.81-6.81,23.22,23.22-23.22,23.22-6.81-6.81,11.21-11.21h-49.24v-10.41Z"/>
+      <path class="st7" d="M924.1,255.47h-49.24l11.21,11.21-6.81,6.81-23.22-23.22,23.22-23.22,6.81,6.81-11.21,11.21h49.24v10.41Z"/>
+    </g>
+  </g>
+  <g>
+    <rect class="st8" x="699.91" y="165.75" width="133.34" height="133.34" rx="29.97" ry="29.97"/>
+    <text class="st6" transform="translate(729.72 263.8)"><tspan x="0" y="0">Ai</tspan></text>
+  </g>
+  <g>
+    <rect class="st14" x="1378.75" y="22.25" width="170" height="170" rx="34" ry="34"/>
+    <text class="st5" transform="translate(1403.1159 147.248)"><tspan x="0" y="0">Ae</tspan></text>
+  </g>
+  <text class="st0" transform="translate(843.39 299.09)"><tspan x="0" y="0">Shuttle</tspan></text>
+  <g>
+    <rect class="st9" x="946.88" y="165.75" width="133.34" height="133.34" rx="29.97" ry="29.97"/>
+    <text class="st3" transform="translate(968.11 263.8)"><tspan x="0" y="0">Ps</tspan></text>
+  </g>
 </svg>

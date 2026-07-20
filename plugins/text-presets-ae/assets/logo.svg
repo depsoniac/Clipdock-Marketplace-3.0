@@ -1,9 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
-  <title id="t">TextPresets</title><desc id="d">Estilos y presets tipograficos</desc>
-  <defs><linearGradient id="b" x1="18" y1="18" x2="238" y2="238"><stop stop-color="#21152e"/><stop offset="1" stop-color="#13222c"/></linearGradient><linearGradient id="tint" x1="53" y1="46" x2="207" y2="211"><stop stop-color="#c58dff"/><stop offset="1" stop-color="#69ddff"/></linearGradient></defs>
-  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#b)" stroke="#895fbd" stroke-width="6"/>
-  <path d="M47 53h126v35h-42v119H89V88H47z" fill="url(#tint)"/>
-  <rect x="151" y="107" width="66" height="25" rx="12" fill="#ffcf67"/><rect x="151" y="145" width="48" height="25" rx="12" fill="#ff7e9c"/><rect x="151" y="183" width="59" height="25" rx="12" fill="#71e29e"/>
-  <path d="m199 47 7 18 18 7-18 7-7 18-7-18-18-7 18-7z" fill="#fff"/>
-  <path d="M57 224h159" stroke="#fff" stroke-opacity=".35" stroke-width="9" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 246 246">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #71e29e;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #ff7e9c;
+      }
+
+      .st3 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-opacity: .35;
+        stroke-width: 9px;
+      }
+
+      .st5 {
+        fill: url(#Degradado_sin_nombre);
+        stroke: #895fbd;
+        stroke-width: 6px;
+      }
+
+      .st6 {
+        fill: #ffcf67;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-814.54" y1="644.29" x2="-594.54" y2="424.29" gradientTransform="translate(199812 158952) scale(240 -240)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21152e"/>
+      <stop offset="1" stop-color="#13222c"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="-781.65" y1="610.46" x2="-627.65" y2="445.46" gradientTransform="translate(104547 101893) scale(126 -154)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c58dff"/>
+      <stop offset="1" stop-color="#69ddff"/>
+    </linearGradient>
+  </defs>
+  <rect class="st5" x="3" y="3" width="240" height="240" rx="58" ry="58"/>
+  <path class="st3" d="M45.13,40.17h126v35h-42v119h-42v-119h-42v-35Z"/>
+  <rect class="st6" x="134.63" y="84.17" width="66" height="24" rx="12" ry="12"/>
+  <rect class="st2" x="134.63" y="122.17" width="48" height="25" rx="12" ry="12"/>
+  <rect class="st0" x="134.63" y="160.17" width="59" height="25" rx="12" ry="12"/>
+  <path class="st1" d="M194.03,38.29l5.63,14.48,14.48,5.63-14.48,5.63-5.63,14.48-5.63-14.48-14.48-5.63,14.48-5.63,5.63-14.48Z"/>
+  <path class="st4" d="M43.5,208.11h159"/>
 </svg>
