@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2023.93 520">
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1206.77 520">
   <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
   <defs>
     <style>
@@ -24,41 +24,45 @@
       }
 
       .st4 {
-        fill: url(#Degradado_sin_nombre_53);
-      }
-
-      .st5 {
-        fill: #c9ff3d;
-      }
-
-      .st6 {
         fill: #b825d6;
-        font-size: 45.12px;
+        font-size: 36.31px;
       }
 
-      .st6, .st1, .st7, .st8 {
+      .st4, .st5, .st1, .st6 {
         isolation: isolate;
       }
 
-      .st6, .st8 {
+      .st4, .st6 {
         font-family: Arial-BoldMT, Arial;
         font-weight: 700;
       }
 
+      .st7 {
+        fill: url(#Degradado_sin_nombre_4);
+      }
+
+      .st8 {
+        fill: #c9ff3d;
+      }
+
       .st9 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st10 {
         stroke: #8fa4ff;
       }
 
-      .st9, .st1, .st10 {
+      .st10, .st1, .st11 {
         fill: none;
       }
 
-      .st9, .st10 {
+      .st10, .st11 {
         stroke-linejoin: round;
         stroke-width: 8px;
       }
 
-      .st9, .st10, .st11, .st12 {
+      .st10, .st11, .st12, .st13 {
         stroke-linecap: round;
       }
 
@@ -67,50 +71,41 @@
         stroke: #9aaaff;
       }
 
-      .st10 {
-        stroke: #c9ff3d;
-      }
-
-      .st13 {
-        fill: #99d8ff;
-      }
-
-      .st7 {
-        fill: #879dff;
-        opacity: .14;
+      .st6 {
+        fill: #f2a6ff;
+        font-size: 12.39px;
       }
 
       .st11 {
-        stroke: #31376d;
-      }
-
-      .st11, .st12 {
-        stroke-width: 9px;
-      }
-
-      .st12 {
-        stroke: #59396b;
+        stroke: #c9ff3d;
       }
 
       .st14 {
-        fill: url(#Degradado_sin_nombre);
+        fill: #99d8ff;
+      }
+
+      .st12 {
+        stroke: #31376d;
+      }
+
+      .st12, .st13 {
+        stroke-width: 9px;
       }
 
       .st15 {
-        fill: #899bff;
+        fill: url(#Degradado_sin_nombre_3);
+      }
+
+      .st13 {
+        stroke: #59396b;
       }
 
       .st16 {
-        fill: url(#Degradado_sin_nombre_52);
+        fill: url(#Degradado_sin_nombre);
       }
 
       .st17 {
-        fill: url(#Degradado_sin_nombre_51);
-      }
-
-      .st8 {
-        fill: #f2a6ff;
-        font-size: 12.39px;
+        fill: #899bff;
       }
 
       .st18 {
@@ -129,58 +124,74 @@
         fill: #202756;
       }
     </style>
-    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="417.15" y1="800.46" x2="418.15" y2="799.46" gradientTransform="translate(-499805.7565 416241) scale(1200 -520)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-306.74" y1="1.07" x2="-305.74" y2="2.07" gradientTransform="translate(368090.3707 -558) scale(1200 520)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0c1020"/>
       <stop offset=".52" stop-color="#151a3a"/>
       <stop offset="1" stop-color="#211532"/>
     </linearGradient>
-    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="429.95" y1="787.85" x2="430.26" y2="787.54" gradientTransform="translate(-17227.6435 35045) scale(44 -44)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="-294.08" y1="19.22" x2="-293.77" y2="19.53" gradientTransform="translate(13897.9064 -478) scale(44)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f4a6ff"/>
       <stop offset="1" stop-color="#c86bff"/>
     </linearGradient>
-    <linearGradient id="Degradado_sin_nombre_51" data-name="Degradado sin nombre 5" x1="429.14" x2="429.44" y2="787.54" gradientTransform="translate(-17175.6435 35045) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
-    <linearGradient id="Degradado_sin_nombre_52" data-name="Degradado sin nombre 5" y1="788.67" x2="430.26" y2="788.36" gradientTransform="translate(-17227.6435 35097) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
-    <linearGradient id="Degradado_sin_nombre_53" data-name="Degradado sin nombre 5" x1="429.14" y1="788.67" x2="429.44" y2="788.36" gradientTransform="translate(-17175.6435 35097) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="-294.89" y1="19.22" x2="-294.59" y2="19.53" gradientTransform="translate(13949.9064 -478) scale(44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4a6ff"/>
+      <stop offset="1" stop-color="#c86bff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1="-294.08" y1="18.41" x2="-293.77" y2="18.72" gradientTransform="translate(13897.9064 -426) scale(44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4a6ff"/>
+      <stop offset="1" stop-color="#c86bff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="-294.89" y1="18.41" x2="-294.59" y2="18.72" gradientTransform="translate(13949.9064 -426) scale(44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4a6ff"/>
+      <stop offset="1" stop-color="#c86bff"/>
+    </linearGradient>
   </defs>
-  <rect class="st14" x="775.85" width="1200" height="520" rx="28" ry="28"/>
-  <ellipse class="st7" cx="264" cy="215" rx="264" ry="178"/>
-  <path class="st1" d="M645.93,371.41c335.83,23,443.94,125,703.86,63,207.02-49,432.43-9,673.95,38"/>
+  <rect class="st16" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st1" d="M6.55,216.55c292.49,23,386.65,125,613.03,63,180.3-49,376.62-9,586.97,38"/>
   <g>
-    <rect class="st0" x="1456.13" y="61.61" width="436" height="406.27" rx="30" ry="30"/>
     <g>
-      <path class="st9" d="M1589.05,232.7v40.13h88.41v41.49M1765.88,232.7v40.13h-88.41v41.49"/>
-      <circle class="st5" cx="1589.05" cy="224.2" r="8.16"/>
-      <circle class="st5" cx="1765.88" cy="224.2" r="8.16"/>
-      <circle class="st5" cx="1677.47" cy="314.31" r="8.16"/>
+      <g>
+        <rect class="st0" x="761.04" y="96.53" width="350.87" height="326.95" rx="30" ry="30"/>
+        <g>
+          <path class="st10" d="M868,234.21v32.29h71.15v33.39M1010.31,234.21v32.29h-71.15v33.39"/>
+          <circle class="st8" cx="868" cy="227.37" r="6.57"/>
+          <circle class="st8" cx="1010.31" cy="227.37" r="6.57"/>
+          <circle class="st8" cx="939.16" cy="299.89" r="6.57"/>
+        </g>
+        <g>
+          <path class="st17" d="M819.67,132.24h33.78l8.73,12.88h54.16v65.18h-96.67s0-78.06,0-78.06Z"/>
+          <path class="st12" d="M828.99,166.04h71.63"/>
+        </g>
+        <g>
+          <path class="st20" d="M961.77,132.24h33.91l8.77,12.88h54.38v65.18h-97.06s0-78.06,0-78.06Z"/>
+          <path class="st13" d="M971.13,166.04h71.92"/>
+        </g>
+        <g>
+          <path class="st19" d="M891.96,310.04h33.25l8.58,13.68h52.56v66.79h-94.4v-80.47h0Z"/>
+          <rect class="st21" x="901.61" y="336.6" width="53.1" height="8.85" rx="4.43" ry="4.43"/>
+          <path class="st18" d="M904.02,355.11h30.03c1.34,0,2.41,1.62,2.41,3.62h0c0,2-1.08,3.62-2.41,3.62h-30.03c-1.34,0-2.41-1.62-2.41-3.62h0c0-2,1.08-3.62,2.41-3.62Z"/>
+        </g>
+        <rect class="st2" x="999.45" y="349.04" width="42.42" height="44.74" rx="16" ry="16"/>
+        <path class="st11" d="M1009.37,373.06l7.71,7.16,14.87-17.63"/>
+      </g>
+      <g>
+        <rect class="st14" x="854.3" y="176.62" width="12.71" height="12.71"/>
+        <rect class="st14" x="869.01" y="176.62" width="12.71" height="12.71"/>
+        <rect class="st14" x="854.3" y="191.33" width="12.71" height="12.71"/>
+        <rect class="st14" x="869.01" y="191.33" width="12.71" height="12.71"/>
+      </g>
+      <g class="st5">
+        <text class="st4" transform="translate(991.71 203.26)"><tspan x="0" y="0">Pr</tspan></text>
+      </g>
     </g>
     <g>
-      <path class="st15" d="M1528.99,105.99h41.97l10.85,16h67.3v81h-120.12v-97Z"/>
-      <path class="st11" d="M1540.57,147.99h89.01"/>
+      <rect class="st9" x="958.38" y="367.81" width="13.63" height="13.63"/>
+      <rect class="st15" x="974.48" y="367.81" width="13.63" height="13.63"/>
+      <rect class="st7" x="958.38" y="383.91" width="13.63" height="13.63"/>
+      <rect class="st3" x="974.48" y="383.91" width="13.63" height="13.63"/>
+      <g class="st5">
+        <text class="st6" transform="translate(983.39 408.68)"><tspan x="0" y="0">Pr</tspan></text>
+      </g>
     </g>
-    <g>
-      <path class="st20" d="M1705.57,105.99h42.14l10.9,16h67.57v81h-120.61v-97Z"/>
-      <path class="st12" d="M1717.2,147.99h89.37"/>
-    </g>
-    <g>
-      <path class="st19" d="M1618.82,326.93h41.32l10.66,17h65.31v83h-117.3v-100Z"/>
-      <rect class="st21" x="1630.81" y="359.93" width="65.98" height="11" rx="5" ry="5"/>
-      <path class="st18" d="M1633.81,382.93h37.32c1.66,0,3,2.01,3,4.5h0c0,2.49-1.34,4.5-3,4.5h-37.32c-1.66,0-3-2.01-3-4.5h0c0-2.49,1.34-4.5,3-4.5Z"/>
-    </g>
-    <rect class="st2" x="1765.88" y="366.32" width="52.71" height="55.59" rx="16" ry="16"/>
-    <path class="st10" d="M1778.2,396.17l9.58,8.9,18.48-21.91"/>
-  </g>
-  <g>
-    <rect class="st13" x="1572.02" y="161.14" width="15.79" height="15.79"/>
-    <rect class="st13" x="1590.3" y="161.14" width="15.79" height="15.79"/>
-    <rect class="st13" x="1572.02" y="179.42" width="15.79" height="15.79"/>
-    <rect class="st13" x="1590.3" y="179.42" width="15.79" height="15.79"/>
-  </g>
-  <text class="st6" transform="translate(1742.7671 194.2441)"><tspan x="0" y="0">Pr</tspan></text>
-  <g>
-    <rect class="st3" x="1690.2" y="379.44" width="13.63" height="13.63"/>
-    <rect class="st17" x="1706.3" y="379.44" width="13.63" height="13.63"/>
-    <rect class="st16" x="1690.2" y="395.54" width="13.63" height="13.63"/>
-    <rect class="st4" x="1706.3" y="395.54" width="13.63" height="13.63"/>
-    <text class="st8" transform="translate(1715.2061 420.3114)"><tspan x="0" y="0">Pr</tspan></text>
   </g>
 </svg>
