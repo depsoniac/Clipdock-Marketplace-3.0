@@ -1,9 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
-  <title id="t">PR Hybrid Organizer</title><desc id="d">Bins y medios organizados en jerarquia</desc>
-  <defs><linearGradient id="b" x1="18" y1="18" x2="238" y2="238"><stop stop-color="#171b35"/><stop offset="1" stop-color="#21152f"/></linearGradient><linearGradient id="f" x1="46" y1="48" x2="210" y2="210"><stop stop-color="#8da6ff"/><stop offset="1" stop-color="#c99cff"/></linearGradient></defs>
-  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#b)" stroke="#6f7ed0" stroke-width="6"/>
-  <path d="M39 58h70l14 17h45v58H39z" fill="url(#f)"/>
-  <path d="M128 104v35M128 139H76v24M128 139h52v24" fill="none" stroke="#d8ddff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M43 163h66l12 15h25v46H43z" fill="#708aff"/><path d="M150 163h56l11 15h-3v46h-64z" fill="#b47de8"/>
-  <path d="M58 194h48M165 194h36" stroke="#1a1b32" stroke-width="8" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 246 246">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #273054;
+        stroke: #b3beff;
+        stroke-opacity: .5;
+      }
+
+      .st1 {
+        fill: #72b4dd;
+      }
+
+      .st2 {
+        stroke: #31376d;
+      }
+
+      .st2, .st3 {
+        stroke-linecap: round;
+        stroke-width: 9px;
+      }
+
+      .st4 {
+        fill: url(#Degradado_sin_nombre);
+        stroke: #6f7ed0;
+        stroke-width: 6px;
+      }
+
+      .st3 {
+        stroke: #59396b;
+      }
+
+      .st5 {
+        fill: #a9d2ff;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 11.68px;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .st6 {
+        fill: #899bff;
+      }
+
+      .st7 {
+        fill: #d4a5ff;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-814.54" y1="644.29" x2="-594.54" y2="424.29" gradientTransform="translate(199812 158952) scale(240 -240)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171b35"/>
+      <stop offset="1" stop-color="#21152f"/>
+    </linearGradient>
+  </defs>
+  <rect class="st4" x="3" y="3" width="240" height="240" rx="58" ry="58"/>
+  <g>
+    <g>
+      <path class="st6" d="M38.6,50.07h59.67l15.43,22.75h95.68v115.16H38.6V50.07Z"/>
+      <path class="st2" d="M55.07,109.79h126.55"/>
+    </g>
+    <g>
+      <path class="st7" d="M50.41,62.36h56.86l14.71,21.59h91.17v109.29H50.41V62.36Z"/>
+      <path class="st3" d="M66.1,119.03h120.58"/>
+    </g>
+    <rect class="st0" x="164.34" y="160.19" width="52.71" height="55.59" rx="16" ry="16"/>
+  </g>
+  <g>
+    <rect class="st1" x="174.68" y="172.12" width="12.85" height="12.85"/>
+    <rect class="st1" x="189.86" y="172.12" width="12.85" height="12.85"/>
+    <rect class="st1" x="174.68" y="187.31" width="12.85" height="12.85"/>
+    <rect class="st1" x="189.86" y="187.31" width="12.85" height="12.85"/>
+    <text class="st5" transform="translate(198.26 210.67)"><tspan x="0" y="0">Pr</tspan></text>
+  </g>
 </svg>

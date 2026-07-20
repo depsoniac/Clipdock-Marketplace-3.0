@@ -1,19 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">PR Hybrid Organizer</title><desc id="desc">Un flujo visual para organizar bins y medios de Premiere.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2023.93 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1020"/><stop offset=".52" stop-color="#151a3a"/><stop offset="1" stop-color="#211532"/></linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="21"/></filter>
+    <style>
+      .st0 {
+        fill: #191d42;
+        stroke: #9baaff;
+        stroke-opacity: .48;
+      }
+
+      .st0, .st1 {
+        stroke-width: 2px;
+      }
+
+      .st2 {
+        fill: #273054;
+        stroke: #b3beff;
+        stroke-opacity: .5;
+      }
+
+      .st3 {
+        fill: url(#Degradado_sin_nombre_5);
+      }
+
+      .st4 {
+        fill: url(#Degradado_sin_nombre_53);
+      }
+
+      .st5 {
+        fill: #c9ff3d;
+      }
+
+      .st6 {
+        fill: #b825d6;
+        font-size: 45.12px;
+      }
+
+      .st6, .st1, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st6, .st8 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st9 {
+        stroke: #8fa4ff;
+      }
+
+      .st9, .st1, .st10 {
+        fill: none;
+      }
+
+      .st9, .st10 {
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+
+      .st9, .st10, .st11, .st12 {
+        stroke-linecap: round;
+      }
+
+      .st1 {
+        opacity: .22;
+        stroke: #9aaaff;
+      }
+
+      .st10 {
+        stroke: #c9ff3d;
+      }
+
+      .st13 {
+        fill: #99d8ff;
+      }
+
+      .st7 {
+        fill: #879dff;
+        opacity: .14;
+      }
+
+      .st11 {
+        stroke: #31376d;
+      }
+
+      .st11, .st12 {
+        stroke-width: 9px;
+      }
+
+      .st12 {
+        stroke: #59396b;
+      }
+
+      .st14 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st15 {
+        fill: #899bff;
+      }
+
+      .st16 {
+        fill: url(#Degradado_sin_nombre_52);
+      }
+
+      .st17 {
+        fill: url(#Degradado_sin_nombre_51);
+      }
+
+      .st8 {
+        fill: #f2a6ff;
+        font-size: 12.39px;
+      }
+
+      .st18 {
+        fill: #313c79;
+      }
+
+      .st19 {
+        fill: #748dff;
+      }
+
+      .st20 {
+        fill: #d4a5ff;
+      }
+
+      .st21 {
+        fill: #202756;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="417.15" y1="800.46" x2="418.15" y2="799.46" gradientTransform="translate(-499805.7565 416241) scale(1200 -520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0c1020"/>
+      <stop offset=".52" stop-color="#151a3a"/>
+      <stop offset="1" stop-color="#211532"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="429.95" y1="787.85" x2="430.26" y2="787.54" gradientTransform="translate(-17227.6435 35045) scale(44 -44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4a6ff"/>
+      <stop offset="1" stop-color="#c86bff"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_51" data-name="Degradado sin nombre 5" x1="429.14" x2="429.44" y2="787.54" gradientTransform="translate(-17175.6435 35045) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
+    <linearGradient id="Degradado_sin_nombre_52" data-name="Degradado sin nombre 5" y1="788.67" x2="430.26" y2="788.36" gradientTransform="translate(-17227.6435 35097) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
+    <linearGradient id="Degradado_sin_nombre_53" data-name="Degradado sin nombre 5" x1="429.14" y1="788.67" x2="429.44" y2="788.36" gradientTransform="translate(-17175.6435 35097) scale(44 -44)" xlink:href="#Degradado_sin_nombre_5"/>
   </defs>
-  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
-  <ellipse cx="987" cy="246" rx="264" ry="178" fill="#879dff" opacity=".14" filter="url(#blur)"/>
-  <path d="M600 123c146 23 193 125 306 63 90-49 188-9 293 38" fill="none" stroke="#9aaaff" stroke-width="2" opacity=".22"/>
-  <g transform="translate(681 62)">
-    <rect x="0" y="18" width="436" height="355" rx="30" fill="#191d42" stroke="#9baaff" stroke-opacity=".48" stroke-width="2"/>
-    <path d="M88 119v59h130v61M348 119v59H218v61" fill="none" stroke="#8fa4ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="88" cy="101" r="12" fill="#c9ff3d"/><circle cx="348" cy="101" r="12" fill="#c9ff3d"/><circle cx="218" cy="239" r="12" fill="#c9ff3d"/>
-    <g transform="translate(42 47)"><path d="M0 26h58l15 16h93v81H0z" fill="#899bff"/><path d="M16 68h123" stroke="#31376d" stroke-width="9" stroke-linecap="round"/></g>
-    <g transform="translate(275 47)"><path d="M0 26h58l15 16h93v81H0z" fill="#d4a5ff"/><path d="M16 68h123" stroke="#59396b" stroke-width="9" stroke-linecap="round"/></g>
-    <g transform="translate(135 247)"><path d="M0 28h62l16 17h98v83H0z" fill="#748dff"/><rect x="18" y="61" width="99" height="11" rx="5" fill="#202756"/><rect x="18" y="84" width="65" height="9" rx="4.5" fill="#313c79"/></g>
-    <rect x="302" y="260" width="88" height="67" rx="16" fill="#273054" stroke="#b3beff" stroke-opacity=".5"/><path d="m324 290 14 13 27-32" fill="none" stroke="#c9ff3d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect class="st14" x="775.85" width="1200" height="520" rx="28" ry="28"/>
+  <ellipse class="st7" cx="264" cy="215" rx="264" ry="178"/>
+  <path class="st1" d="M645.93,371.41c335.83,23,443.94,125,703.86,63,207.02-49,432.43-9,673.95,38"/>
+  <g>
+    <rect class="st0" x="1456.13" y="61.61" width="436" height="406.27" rx="30" ry="30"/>
+    <g>
+      <path class="st9" d="M1589.05,232.7v40.13h88.41v41.49M1765.88,232.7v40.13h-88.41v41.49"/>
+      <circle class="st5" cx="1589.05" cy="224.2" r="8.16"/>
+      <circle class="st5" cx="1765.88" cy="224.2" r="8.16"/>
+      <circle class="st5" cx="1677.47" cy="314.31" r="8.16"/>
+    </g>
+    <g>
+      <path class="st15" d="M1528.99,105.99h41.97l10.85,16h67.3v81h-120.12v-97Z"/>
+      <path class="st11" d="M1540.57,147.99h89.01"/>
+    </g>
+    <g>
+      <path class="st20" d="M1705.57,105.99h42.14l10.9,16h67.57v81h-120.61v-97Z"/>
+      <path class="st12" d="M1717.2,147.99h89.37"/>
+    </g>
+    <g>
+      <path class="st19" d="M1618.82,326.93h41.32l10.66,17h65.31v83h-117.3v-100Z"/>
+      <rect class="st21" x="1630.81" y="359.93" width="65.98" height="11" rx="5" ry="5"/>
+      <path class="st18" d="M1633.81,382.93h37.32c1.66,0,3,2.01,3,4.5h0c0,2.49-1.34,4.5-3,4.5h-37.32c-1.66,0-3-2.01-3-4.5h0c0-2.49,1.34-4.5,3-4.5Z"/>
+    </g>
+    <rect class="st2" x="1765.88" y="366.32" width="52.71" height="55.59" rx="16" ry="16"/>
+    <path class="st10" d="M1778.2,396.17l9.58,8.9,18.48-21.91"/>
+  </g>
+  <g>
+    <rect class="st13" x="1572.02" y="161.14" width="15.79" height="15.79"/>
+    <rect class="st13" x="1590.3" y="161.14" width="15.79" height="15.79"/>
+    <rect class="st13" x="1572.02" y="179.42" width="15.79" height="15.79"/>
+    <rect class="st13" x="1590.3" y="179.42" width="15.79" height="15.79"/>
+  </g>
+  <text class="st6" transform="translate(1742.7671 194.2441)"><tspan x="0" y="0">Pr</tspan></text>
+  <g>
+    <rect class="st3" x="1690.2" y="379.44" width="13.63" height="13.63"/>
+    <rect class="st17" x="1706.3" y="379.44" width="13.63" height="13.63"/>
+    <rect class="st16" x="1690.2" y="395.54" width="13.63" height="13.63"/>
+    <rect class="st4" x="1706.3" y="395.54" width="13.63" height="13.63"/>
+    <text class="st8" transform="translate(1715.2061 420.3114)"><tspan x="0" y="0">Pr</tspan></text>
   </g>
 </svg>
