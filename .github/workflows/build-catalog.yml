@@ -1,0 +1,71 @@
+name: Build catalog
+
+# El "robot" del marketplace. Regenera catalog-resolved.json y plugins/index.json
+# leyendo el ultimo release de cada plugin. Corre:
+#   - cuando subes/editas un plugin.json, el catalog.json o el script (push)
+#   - cada 6 horas (por si sacaste un release nuevo sin tocar el marketplace)
+#   - a mano desde la pestana Actions (workflow_dispatch)
+#   - cuando un repo de plugin avisa al publicar release (repository_dispatch)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'plugins/**/plugin.json'
+      - 'catalog.json'
+      - 'scripts/build-catalog.mjs'
+      - '.github/workflows/build-catalog.yml'
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [plugin-released]
+
+# Evita que dos corridas se pisen.
+concurrency:
+  group: build-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar y publicar catalogo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "clipdock-catalog-bot"
+          git config user.email "actions@github.com"
+          for attempt in 1 2 3; do
+            echo "Intento $attempt: generando desde el main remoto mas reciente..."
+            git fetch origin main
+            git checkout -B main origin/main
+            node scripts/build-catalog.mjs
+
+            if [ -z "$(git status --porcelain catalog-resolved.json plugins/index.json)" ]; then
+              echo "Sin cambios reales en el catalogo."
+              exit 0
+            fi
+
+            git add catalog-resolved.json plugins/index.json
+            git commit -m "chore(catalog): regenerar catalogo [skip ci]"
+            if git push origin main; then
+              echo "Catalogo actualizado y subido."
+              exit 0
+            fi
+
+            echo "main cambio durante la corrida; reintentando sin hacer merge..."
+          done
+
+          echo "No se pudo publicar tras 3 intentos. La siguiente corrida volvera a intentar."
+          exit 1
