@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1541.87 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Degradado_sin_nombre_5);
+      }
+
+      .st1 {
+        font-size: 38.22px;
+      }
+
+      .st1, .st2 {
+        fill: #f5f7fb;
+      }
+
+      .st1, .st3, .st4, .st5, .st6 {
+        isolation: isolate;
+      }
+
+      .st1, .st5, .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st7 {
+        stroke-opacity: .9;
+        stroke-width: 3px;
+      }
+
+      .st7, .st2, .st8, .st9 {
+        stroke: #a48cff;
+      }
+
+      .st7, .st10, .st4, .st11, .st8 {
+        fill: none;
+      }
+
+      .st12 {
+        fill: #171033;
+      }
+
+      .st2 {
+        stroke-width: 1.5px;
+      }
+
+      .st10 {
+        stroke: #64dfff;
+      }
+
+      .st10, .st4, .st9 {
+        stroke-width: 2px;
+      }
+
+      .st3 {
+        fill: #b7c3d1;
+        font-family: ArialMT, Arial;
+        font-size: 22px;
+      }
+
+      .st13 {
+        fill: url(#Degradado_sin_nombre_9);
+      }
+
+      .st4 {
+        opacity: .3;
+      }
+
+      .st4, .st14 {
+        stroke: #ff8a94;
+      }
+
+      .st11 {
+        stroke: #171033;
+        stroke-linecap: round;
+        stroke-miterlimit: 5.8;
+        stroke-width: 5.07px;
+      }
+
+      .st15 {
+        fill: #64dfff;
+      }
+
+      .st14 {
+        fill: #161b24;
+      }
+
+      .st14, .st9 {
+        stroke-opacity: .55;
+      }
+
+      .st16 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st5 {
+        fill: #edf4f8;
+        font-size: 14px;
+        letter-spacing: .09em;
+      }
+
+      .st8 {
+        stroke-opacity: .06;
+      }
+
+      .st17 {
+        fill: url(#Degradado_sin_nombre_14);
+      }
+
+      .st18 {
+        fill: url(#Degradado_sin_nombre_52);
+      }
+
+      .st9 {
+        fill: #161426;
+      }
+
+      .st19 {
+        fill: url(#Degradado_sin_nombre_51);
+      }
+
+      .st6 {
+        fill: #c48dff;
+        font-size: 20px;
+        letter-spacing: .2em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1=".28" y1="522" x2="1200.28" y2="2" gradientTransform="translate(0 522) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1017"/>
+      <stop offset=".58" stop-color="#121b27"/>
+      <stop offset="1" stop-color="#15101e"/>
+    </linearGradient>
+    <radialGradient id="Degradado_sin_nombre_14" data-name="Degradado sin nombre 14" cx="-717.12" cy="-1.96" fx="-717.12" fy="-1.96" r="1" gradientTransform="translate(-136031.1519 235704.297) rotate(120) scale(380 460)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a48cff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a48cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_9" data-name="Degradado sin nombre 9" cx="978.04" cy="274.12" fx="978.04" fy="274.12" r="127.84" gradientTransform="translate(0 522) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a24bff" stop-opacity=".55"/>
+      <stop offset=".55" stop-color="#7a2bd6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7a2bd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="-609.81" y1="1281.51" x2="-520.88" y2="1192.58" gradientTransform="translate(-1147.7871 -432.4715) rotate(135) scale(1.45 -1.45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9def0"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_51" data-name="Degradado sin nombre 5" x1="-628.5" y1="1269.07" x2="-543.39" y2="1183.96" gradientTransform="translate(-71.6692 -1716.8913) scale(-1.45 1.45)" xlink:href="#Degradado_sin_nombre_5"/>
+    <linearGradient id="Degradado_sin_nombre_52" data-name="Degradado sin nombre 5" x1="-634.07" y1="1266.3" x2="-551" y2="1183.23" gradientTransform="translate(-80.2176 -1713.3505) scale(-1.45 1.45)" xlink:href="#Degradado_sin_nombre_5"/>
+  </defs>
+  <rect class="st16" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st4" d="M.28,465c230-67,350,35,568-60s287-228,632-201"/>
+  <text class="st6" transform="translate(44.27 72.34)"><tspan x="0" y="0">MASCARAS SIN VINCULO</tspan></text>
+  <text class="st3" transform="translate(45.69 116.24)"><tspan x="0" y="0">Separa mask paths y acelera el trabajo de rotoscopia.</tspan></text>
+  <rect class="st17" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <g>
+    <path class="st14" d="M65.2,150h108c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-108c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+    <text class="st5" transform="translate(73.56 177)"><tspan x="0" y="0">MASCARAS</tspan></text>
+    <path class="st14" d="M229.2,150h76c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-76c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+    <text class="st5" transform="translate(244.51 177)"><tspan x="0" y="0">ROTO</tspan></text>
+    <path class="st14" d="M361.2,150h76c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-76c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+    <text class="st5" transform="translate(373.27 177)"><tspan x="0" y="0">PATHS</tspan></text>
+  </g>
+  <g>
+    <rect class="st9" x="825.94" y="100.23" width="286" height="310" rx="28" ry="28"/>
+    <rect class="st7" x="890.66" y="176.23" width="156" height="158" rx="2" ry="2"/>
+    <circle class="st15" cx="1022.52" cy="306.58" r="5"/>
+    <rect class="st2" x="882.66" y="168.23" width="16" height="16"/>
+    <rect class="st10" x="877.66" y="163.23" width="26" height="26"/>
+    <rect class="st13" x="800.17" y="128.38" width="333.5" height="255.68" rx="22" ry="22"/>
+    <rect class="st2" x="1038.66" y="168.23" width="16" height="16"/>
+    <rect class="st2" x="882.66" y="326.23" width="16" height="16"/>
+    <rect class="st2" x="1038.66" y="326.23" width="16" height="16"/>
+    <g>
+      <line class="st8" x1="1241.73" y1="130.54" x2="1241.73" y2="386.22"/>
+      <line class="st8" x1="1286.19" y1="130.54" x2="1286.19" y2="386.22"/>
+      <line class="st8" x1="1330.66" y1="130.54" x2="1330.66" y2="386.22"/>
+      <line class="st8" x1="1375.13" y1="130.54" x2="1375.13" y2="386.22"/>
+      <line class="st8" x1="1419.59" y1="130.54" x2="1419.59" y2="386.22"/>
+      <line class="st8" x1="1464.06" y1="130.54" x2="1464.06" y2="386.22"/>
+      <line class="st8" x1="1508.52" y1="130.54" x2="1508.52" y2="386.22"/>
+      <line class="st8" x1="1208.38" y1="180.56" x2="1541.87" y2="180.56"/>
+      <line class="st8" x1="1208.38" y1="225.03" x2="1541.87" y2="225.03"/>
+      <line class="st8" x1="1208.38" y1="269.5" x2="1541.87" y2="269.5"/>
+      <line class="st8" x1="1208.38" y1="313.96" x2="1541.87" y2="313.96"/>
+      <line class="st8" x1="1208.38" y1="358.43" x2="1541.87" y2="358.43"/>
+    </g>
+    <g>
+      <path class="st0" d="M1019.35,302.95l-23.94-33.05-33.05-60.41-13.11,13.11,7.41,17.67-17.67-7.41-13.11,13.11,60.41,33.05,33.05,23.94Z"/>
+      <rect class="st19" x="912.5" y="216.25" width="56.42" height="16.12" rx="8.06" ry="8.06" transform="translate(116.92 730.88) rotate(-45)"/>
+      <rect class="st18" x="914.42" y="210.12" width="35.46" height="11.28" rx="5.64" ry="5.64" transform="translate(120.46 722.33) rotate(-45)"/>
+      <circle class="st12" cx="986.3" cy="269.9" r="6.04"/>
+      <line class="st11" x1="982.88" y1="266.48" x2="950.96" y2="234.57"/>
+    </g>
+  </g>
+  <text class="st1" transform="translate(838.48 395.99)"><tspan x="0" y="0">Mask Unlinker</tspan></text>
+</svg>

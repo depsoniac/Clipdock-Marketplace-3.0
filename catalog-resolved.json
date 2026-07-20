@@ -1,0 +1,1641 @@
+{
+  "schema": "clipdock.registry.v2",
+  "registryVersion": 2,
+  "updatedAt": "2026-07-19",
+  "name": "ClipDock Marketplace 3.0",
+  "discovery": {
+    "type": "folder-index",
+    "pluginsFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/",
+    "folderIndexFile": "index.json",
+    "manifestFile": "plugin.json"
+  },
+  "ui": {
+    "eyebrow": "STORE",
+    "title": "ClipDock Store",
+    "subtitle": "Extensiones, herramientas y flujos listos para instalar",
+    "searchPlaceholder": "Buscar apps, Adobe, scripts, utilidades...",
+    "filters": [
+      {
+        "id": "all",
+        "label": "Inicio"
+      },
+      {
+        "id": "after-effects",
+        "label": "After Effects"
+      },
+      {
+        "id": "premiere",
+        "label": "Premiere"
+      },
+      {
+        "id": "illustrator-photoshop",
+        "label": "Ai / Ps"
+      },
+      {
+        "id": "clipdock-utility",
+        "label": "Docklets"
+      },
+      {
+        "id": "installed",
+        "label": "Instalado"
+      },
+      {
+        "id": "updates",
+        "label": "Updates"
+      }
+    ],
+    "buttons": {
+      "refresh": {
+        "title": "Actualizar tienda",
+        "ariaLabel": "Actualizar tienda"
+      },
+      "search": {
+        "title": "Buscar en tienda"
+      },
+      "submit": {
+        "hidden": false
+      },
+      "info": {
+        "hidden": false
+      }
+    },
+    "hero": {
+      "eyebrow": "Destacado",
+      "title": "Destacado para empezar",
+      "subtitle": "Banners destacados de la tienda. Cambia con los puntos de la esquina.",
+      "pluginId": "clipdock-remote",
+      "action": {
+        "label": "Instalar"
+      },
+      "secondaryLabel": "Ver ficha",
+      "plugins": [
+        "clipdock-remote",
+        "clipdock-postits",
+        "clipdock-saves",
+        "clipdock-track",
+        "audify",
+        "premiere-hybrid-organizer",
+        "effectdocks",
+        "mediavault"
+      ]
+    },
+    "sections": [
+      {
+        "id": "featured",
+        "title": "Destacado para empezar",
+        "subtitle": "Lo principal para probar la tienda y ampliar ClipDock.",
+        "filter": "all",
+        "actionLabel": "Ver todo",
+        "plugins": [
+          "clipdock-remote",
+          "clipdock-postits",
+          "clipdock-saves",
+          "clipdock-track",
+          "audify",
+          "premiere-hybrid-organizer",
+          "effectdocks",
+          "mediavault"
+        ]
+      },
+      {
+        "id": "after-effects",
+        "title": "After Effects",
+        "subtitle": "Scripts y paneles para animacion, limpieza y control.",
+        "filter": "after-effects",
+        "actionLabel": "Abrir After Effects",
+        "plugins": [
+          "audify",
+          "aura-pro",
+          "cache-pro",
+          "clipdock-remote",
+          "fx-palette",
+          "graph-editor-ae",
+          "mask-unlinker",
+          "mediavault",
+          "text-presets-ae"
+        ]
+      },
+      {
+        "id": "premiere",
+        "title": "Premiere",
+        "subtitle": "Herramientas para organizar y mover contenido en Premiere.",
+        "filter": "premiere",
+        "actionLabel": "Abrir Premiere",
+        "plugins": [
+          "clipdock-remote",
+          "effectdocks",
+          "mediavault",
+          "premiere-hybrid-organizer"
+        ]
+      },
+      {
+        "id": "illustrator-photoshop",
+        "title": "Illustrator y Photoshop",
+        "subtitle": "Puentes y utilidades para vector y composicion.",
+        "filter": "illustrator-photoshop",
+        "actionLabel": "Ver todo",
+        "plugins": [
+          "shuttle"
+        ]
+      },
+      {
+        "id": "clipdock-utility",
+        "title": "Docklets",
+        "subtitle": "Mini ventanas acoplables que expanden la barra lateral de ClipDock.",
+        "filter": "clipdock-utility",
+        "actionLabel": "Abrir Docklets",
+        "plugins": [
+          "clipdock-postits",
+          "clipdock-saves",
+          "clipdock-track",
+          "effectdocks"
+        ]
+      }
+    ]
+  },
+  "generatedAt": "2026-07-19T04:25:32.000Z",
+  "registryMode": "resolved-folder-index",
+  "plugins": [
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "audify",
+      "slug": "audify",
+      "name": "Audify",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "after-effects",
+      "type": "after-effects-script",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Control rápido de volumen y ducking automático en After Effects.",
+      "description": "Panel ScriptUI para After Effects que ayuda a controlar el volumen rápido y a hacer ducking automático (bajar la música cuando entra voz o diálogo).",
+      "installDirName": "audify",
+      "tags": [
+        "After Effects",
+        "Script",
+        "Audio"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Audify",
+        "release": "https://github.com/depsonopsito/Audify-After-Effect/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Control de volumen",
+          "text": "Ajusta el volumen de tus capas de audio de forma rápida desde el panel."
+        },
+        {
+          "title": "Ducking automático",
+          "text": "Baja automáticamente la música cuando entra voz o diálogo para mantener la claridad."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-ae-script",
+      "aeScriptFile": "Audify.jsx",
+      "installTarget": "After Effects > Scripts > ScriptUI Panels",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/Audify-After-Effect",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Audify-After-Effect"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T02:21:56Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/audify/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/audify/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Audify-After-Effect/releases/download/1.0.0/Audify-After-Effect-main.zip",
+      "fileName": "Audify-After-Effect-main.zip",
+      "sha256": "97d68d0e7e8f68c332c4d15786cb44d60117650b4fdd3d955493c4c834964ade",
+      "sizeLabel": "6.9 KB",
+      "package": {
+        "format": "zip",
+        "file": "Audify-After-Effect-main.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Audify-After-Effect/releases/download/1.0.0/Audify-After-Effect-main.zip",
+        "sha256": "97d68d0e7e8f68c332c4d15786cb44d60117650b4fdd3d955493c4c834964ade",
+        "sizeBytes": 7082,
+        "sizeLabel": "6.9 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T02:21:56Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Audify-After-Effect",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/Audify-After-Effect/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T02:21:56Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/audify/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/audify/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "aura-pro",
+      "slug": "aura-pro",
+      "name": "Aura Pro",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "after-effects",
+      "type": "after-effects-script",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Gestor avanzado de paletas de color para After Effects.",
+      "description": "Panel ScriptUI para organizar, extraer y aplicar colores: paletas múltiples por proyecto, aplicación de relleno/trazo con un clic, sincronización con la selección e importación/exportación en JSON.",
+      "installDirName": "aura-pro",
+      "tags": [
+        "After Effects",
+        "Script",
+        "Color"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Aura%20Pro",
+        "release": "https://github.com/depsonopsito/Aura-Pro-main/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Paletas múltiples",
+          "text": "Organiza tus colores por cliente o proyecto y compártelos vía archivos JSON."
+        },
+        {
+          "title": "Aplicación inteligente",
+          "text": "Un clic para Relleno o Shift+Clic para Trazo; intercambia Fill/Stroke al instante."
+        },
+        {
+          "title": "Extrae de la selección",
+          "text": "Detecta y extrae automáticamente los colores de los objetos seleccionados."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-ae-script",
+      "aeScriptFile": "Aura Pro.jsx",
+      "installTarget": "After Effects > Scripts > ScriptUI Panels",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/Aura-Pro-main",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Aura-Pro-main"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T02:37:26Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/aura-pro/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/aura-pro/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Aura-Pro-main/releases/download/1.0.0/Aura-Pro-main.zip",
+      "fileName": "Aura-Pro-main.zip",
+      "sha256": "91b1c67135dea099162b322fa8aab2a0821054c65cf6eee9915e613e29861591",
+      "sizeLabel": "10.8 KB",
+      "package": {
+        "format": "zip",
+        "file": "Aura-Pro-main.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Aura-Pro-main/releases/download/1.0.0/Aura-Pro-main.zip",
+        "sha256": "91b1c67135dea099162b322fa8aab2a0821054c65cf6eee9915e613e29861591",
+        "sizeBytes": 11095,
+        "sizeLabel": "10.8 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T02:37:26Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Aura-Pro-main",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/Aura-Pro-main/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T02:37:26Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/aura-pro/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/aura-pro/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "cache-pro",
+      "slug": "cache-pro",
+      "name": "Cache Pro",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "after-effects",
+      "type": "after-effects-script",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Multi-herramienta de rendimiento y limpieza de caché para After Effects.",
+      "description": "Panel ScriptUI para optimizar el rendimiento de After Effects en tiempo real: purga caché de RAM y disco, limpia elementos no usados, controla efectos y guarda con versionado automático.",
+      "installDirName": "cache-pro",
+      "tags": [
+        "After Effects",
+        "Script",
+        "Rendimiento"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Cache%20Pro",
+        "release": "https://github.com/depsonopsito/Cache-Pro/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Purga de caché",
+          "text": "Libera RAM y disco al instante, o limpia solo el caché de previsualización del timeline."
+        },
+        {
+          "title": "Limpieza de proyecto",
+          "text": "Elimina footage no utilizado y carpetas vacías automáticamente."
+        },
+        {
+          "title": "Control de efectos y guardado",
+          "text": "Activa/desactiva efectos de las capas seleccionadas y guarda con versionado incorporado."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-ae-script",
+      "aeScriptFile": "Cache Pro.jsx",
+      "installTarget": "After Effects > Scripts > ScriptUI Panels",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/Cache-Pro",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Cache-Pro"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T02:41:40Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/cache-pro/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/cache-pro/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Cache-Pro/releases/download/1.0.0/Cache-Pro-main.zip",
+      "fileName": "Cache-Pro-main.zip",
+      "sha256": "de92265d768129e15af2d40ecf551b38b289444c248cb80ffc8767cdcc6279e8",
+      "sizeLabel": "6.3 KB",
+      "package": {
+        "format": "zip",
+        "file": "Cache-Pro-main.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Cache-Pro/releases/download/1.0.0/Cache-Pro-main.zip",
+        "sha256": "de92265d768129e15af2d40ecf551b38b289444c248cb80ffc8767cdcc6279e8",
+        "sizeBytes": 6400,
+        "sizeLabel": "6.3 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T02:41:40Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Cache-Pro",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/Cache-Pro/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T02:41:40Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/cache-pro/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/cache-pro/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "clipdock-postits",
+      "slug": "clipdock-postits",
+      "name": "ClipdockBoard",
+      "author": "Depson",
+      "category": "clipdock-utility",
+      "type": "clipdock-window",
+      "minClipDockVersion": "1.6.3",
+      "version": "1.6.0",
+      "summary": "Pizarron para notas post-it y dibujo a mano dentro de ClipDock.",
+      "description": "Pizarron acoplable de ClipDock: crea, mueve, colorea y redimensiona notas tipo post-it, y dibuja a mano alzada con lapiz, marcador y borrador. Fondo de puntos, exporta el pizarron como imagen y todo se guarda solo.",
+      "installMode": "clipdock-window",
+      "installDirName": "clipdock-postits",
+      "windowEntry": "index.html",
+      "window": {
+        "width": 920,
+        "height": 680
+      },
+      "tags": [
+        "Docklet",
+        "ClipDock",
+        "Notas",
+        "Productividad",
+        "Postits"
+      ],
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "creator": {
+        "handle": "depsoniac",
+        "name": "Depson",
+        "github": "https://github.com/depsoniac",
+        "avatar": "https://github.com/depsoniac.png",
+        "instagram": "https://www.instagram.com/depsonop/",
+        "twitter": "https://x.com/depsonop"
+      },
+      "repo": "https://github.com/depsonopsito/Clipdock-Postits",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clipdock-Postits"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-19T04:25:32Z"
+      },
+      "links": {
+        "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.6.0/clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+      "fileName": "clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+      "sha256": "3f93d19fad1e0bfe31d5729ec24c01714c1c2b972eadf624e1a5718001a82d24",
+      "sizeLabel": "13.9 KB",
+      "package": {
+        "format": "zip",
+        "file": "clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Clipdock-Postits/releases/download/1.6.0/clipdock-postits-0.4.1-mover-y-redimensionar-corregido.zip",
+        "sha256": "3f93d19fad1e0bfe31d5729ec24c01714c1c2b972eadf624e1a5718001a82d24",
+        "sizeBytes": 14225,
+        "sizeLabel": "13.9 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-19T04:25:32Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clipdock-Postits",
+        "tag": "v1.6.0",
+        "url": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0",
+        "publishedAt": "2026-07-19T04:25:32Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "clipdock-remote",
+      "slug": "clipdock-remote-adobe",
+      "name": "ClipDock Remote",
+      "author": "Depson",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "Adobe CEP"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.1",
+      "summary": "Control remoto Adobe con dock compacto, importacion desde portapapeles y cola de ClipDock.",
+      "description": "Extension CEP opcional para conectar ClipDock con Premiere y After Effects. Incluye ruteo separado, dock compacto e importacion rapida desde portapapeles y cola.",
+      "installMode": "download-adobe-cep",
+      "installDirName": "clipdock-remote-adobe",
+      "tags": [
+        "Adobe CEP",
+        "Premiere",
+        "After Effects"
+      ],
+      "cepSubdir": "cep",
+      "cepDirName": "ClipDock CEP",
+      "links": {
+        "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20ClipDock%20Remote",
+        "release": "https://github.com/depsonopsito/Clipdock-Remote/releases/tag/1.0.1"
+      },
+      "images": {
+        "logo": "assets/logo.png",
+        "banner": "assets/banner.svg"
+      },
+      "creator": {
+        "handle": "depsoniac",
+        "name": "Depson",
+        "github": "https://github.com/depsoniac",
+        "avatar": "https://github.com/depsoniac.png",
+        "instagram": "https://www.instagram.com/depsonop/",
+        "twitter": "https://x.com/depsonop"
+      },
+      "repo": "https://github.com/depsonopsito/Clipdock-Remote",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clipdock-Remote"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-09T23:23:28Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-remote-adobe/assets/logo.png",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-remote-adobe/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Clipdock-Remote/releases/download/1.0.1/clipdock-remote-adobe-1.1.1.zip",
+      "fileName": "clipdock-remote-adobe-1.1.1.zip",
+      "sha256": "8b857d0f9eee7dba09e0b052379abf216a316205af16473d1d2373bd24bd0e3c",
+      "sizeLabel": "48.6 KB",
+      "package": {
+        "format": "zip",
+        "file": "clipdock-remote-adobe-1.1.1.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Clipdock-Remote/releases/download/1.0.1/clipdock-remote-adobe-1.1.1.zip",
+        "sha256": "8b857d0f9eee7dba09e0b052379abf216a316205af16473d1d2373bd24bd0e3c",
+        "sizeBytes": 49772,
+        "sizeLabel": "48.6 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-09T23:23:28Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clipdock-Remote",
+        "tag": "v1.0.1",
+        "url": "https://github.com/depsonopsito/Clipdock-Remote/releases/tag/1.0.1",
+        "publishedAt": "2026-07-09T23:23:28Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-remote-adobe/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-remote-adobe/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "clipdock-saves",
+      "slug": "clipdock-saves",
+      "name": "ClipDock Saves",
+      "author": "Depson",
+      "category": "clipdock-utility",
+      "type": "clipdock-window",
+      "minClipDockVersion": "1.6.3",
+      "version": "0.1.4",
+      "summary": "Docklet para guardar publicaciones, videos, tutoriales, pins y paginas web como referencias visuales.",
+      "description": "Biblioteca visual de referencias para editores. Guarda cualquier URL con preview automatica, tableros ordenables, miniaturas, menus compactos, notas, busqueda, filtros, exportacion y respaldo JSON.",
+      "installMode": "clipdock-window",
+      "installDirName": "clipdock-saves",
+      "windowEntry": "index.html",
+      "window": {
+        "width": 1120,
+        "height": 760
+      },
+      "tags": [
+        "Docklet",
+        "ClipDock",
+        "Bookmarks",
+        "Referencias",
+        "Social",
+        "Moodboard"
+      ],
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "creator": {
+        "handle": "depsoniac",
+        "name": "Depson",
+        "github": "https://github.com/depsoniac",
+        "avatar": "https://github.com/depsoniac.png",
+        "instagram": "https://www.instagram.com/depsonop/",
+        "twitter": "https://x.com/depsonop"
+      },
+      "permissions": {
+        "networkPreview": true,
+        "localStorage": true
+      },
+      "repo": "https://github.com/depsonopsito/clipdock-saves",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "clipdock-saves"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-12T06:23:17Z"
+      },
+      "links": {
+        "release": "https://github.com/depsonopsito/clipdock-saves/releases/tag/0.1.4"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/clipdock-saves/releases/download/0.1.4/clipdock-saves-0.1.4.zip",
+      "fileName": "clipdock-saves-0.1.4.zip",
+      "sha256": "fdc5668e14e760c4c97c79b3b916506e0dfc2dc8be00a284c26fbd81efed1166",
+      "sizeLabel": "13.1 KB",
+      "package": {
+        "format": "zip",
+        "file": "clipdock-saves-0.1.4.zip",
+        "downloadUrl": "https://github.com/depsonopsito/clipdock-saves/releases/download/0.1.4/clipdock-saves-0.1.4.zip",
+        "sha256": "fdc5668e14e760c4c97c79b3b916506e0dfc2dc8be00a284c26fbd81efed1166",
+        "sizeBytes": 13428,
+        "sizeLabel": "13.1 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-12T06:23:17Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "clipdock-saves",
+        "tag": "v0.1.4",
+        "url": "https://github.com/depsonopsito/clipdock-saves/releases/tag/0.1.4",
+        "publishedAt": "2026-07-12T06:23:17Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "clipdock-track",
+      "slug": "clipdock-track",
+      "name": "ClipDock Track",
+      "author": "Depson",
+      "category": "clipdock-utility",
+      "type": "clipdock-window",
+      "minClipDockVersion": "1.6.3",
+      "version": "0.2.0",
+      "summary": "Docklet para controlar videos, clientes, presupuestos y entregas mensuales.",
+      "description": "Cabina visual para editores: mide videos del mes, ingresos, clientes, presupuestos, estados de edicion, pagos, fechas de entrega y carga de trabajo.",
+      "installMode": "clipdock-window",
+      "installDirName": "clipdock-track",
+      "windowEntry": "index.html",
+      "window": {
+        "width": 1180,
+        "height": 780
+      },
+      "tags": [
+        "Docklet",
+        "ClipDock",
+        "Tracking",
+        "Clientes",
+        "Presupuestos",
+        "Editor"
+      ],
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "creator": {
+        "handle": "depsoniac",
+        "name": "Depson",
+        "github": "https://github.com/depsoniac",
+        "avatar": "https://github.com/depsoniac.png",
+        "instagram": "https://www.instagram.com/depsonop/",
+        "twitter": "https://x.com/depsonop"
+      },
+      "permissions": {
+        "localStorage": true
+      },
+      "repo": "https://github.com/depsonopsito/Clidock-Track",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clidock-Track"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-13T06:54:05Z"
+      },
+      "links": {
+        "release": "https://github.com/depsonopsito/Clidock-Track/releases/tag/0.2.0"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-track/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-track/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Clidock-Track/releases/download/0.2.0/clipdock-track-0.1.0.zip",
+      "fileName": "clipdock-track-0.1.0.zip",
+      "sha256": "5274344b7e4dc99efcb52e8a01941d8673f939c3cce7a16ed420d5c6c93247a7",
+      "sizeLabel": "12.2 KB",
+      "package": {
+        "format": "zip",
+        "file": "clipdock-track-0.1.0.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Clidock-Track/releases/download/0.2.0/clipdock-track-0.1.0.zip",
+        "sha256": "5274344b7e4dc99efcb52e8a01941d8673f939c3cce7a16ed420d5c6c93247a7",
+        "sizeBytes": 12503,
+        "sizeLabel": "12.2 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-13T06:54:05Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Clidock-Track",
+        "tag": "v0.2.0",
+        "url": "https://github.com/depsonopsito/Clidock-Track/releases/tag/0.2.0",
+        "publishedAt": "2026-07-13T06:54:05Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-track/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-track/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "effectdocks",
+      "slug": "effectdocks",
+      "name": "EffectDocks",
+      "author": "Depson",
+      "category": "premiere",
+      "type": "clipdock-symbiont",
+      "installMode": "clipdock-symbiont",
+      "version": "1.3.5",
+      "minClipDockVersion": "2.0.0",
+      "summary": "Busca, previsualiza y aplica efectos de Premiere desde ClipDock en perfecta sincronía.",
+      "description": "Sistema bidireccional para Premiere Pro y ClipDock. Abre la búsqueda con Ctrl + Espacio, filtra efectos en ambas interfaces, reproduce sus previews animadas y permite aplicar cualquier efecto al clip seleccionado desde Premiere o desde el doclet. Incluye favoritos y restablecimiento automático después de aplicar.",
+      "installDirName": "effectdocks",
+      "windowEntry": "doclet/index.html",
+      "cepSubdir": "cep",
+      "cepDirName": "EffectDocks",
+      "host": [
+        "Premiere Pro",
+        "ClipDock"
+      ],
+      "window": {
+        "width": 1180,
+        "height": 760
+      },
+      "tags": [
+        "Docklet",
+        "Premiere",
+        "Efectos",
+        "Previsualización",
+        "Favoritos",
+        "CEP"
+      ],
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "permissions": {
+        "localStorage": true,
+        "localhostBridge": true
+      },
+      "creator": {
+        "handle": "depsonopsito",
+        "name": "Depson",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png"
+      },
+      "repo": "https://github.com/depsonopsito/EffectDocks",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "EffectDocks"
+      },
+      "links": {
+        "github": "https://github.com/depsonopsito/EffectDocks",
+        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.5"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-18T23:27:27Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.5/effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
+      "fileName": "effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
+      "sha256": "279fe76d26c526109c67c5ecac656c2b98b67c537b86220342015e46263cde4c",
+      "sizeLabel": "39.2 MB",
+      "package": {
+        "format": "zip",
+        "file": "effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
+        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.5/effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
+        "sha256": "279fe76d26c526109c67c5ecac656c2b98b67c537b86220342015e46263cde4c",
+        "sizeBytes": 41153821,
+        "sizeLabel": "39.2 MB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-18T23:27:27Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "EffectDocks",
+        "tag": "v1.3.5",
+        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.5",
+        "publishedAt": "2026-07-18T23:27:27Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "fx-palette",
+      "slug": "fx-palette",
+      "name": "Labels PRO",
+      "author": "Depson",
+      "authorLocation": "México",
+      "category": "after-effects",
+      "type": "after-effects-script",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "2.0.0",
+      "version": "2.0.0",
+      "summary": "Cambia rápidamente el color de etiqueta de varias capas seleccionadas en After Effects.",
+      "description": "Panel ScriptUI para After Effects que permite aplicar colores de etiqueta a varias capas seleccionadas con un clic.",
+      "installMode": "download-ae-script",
+      "aeScriptFile": "Labels_Visual.jsx",
+      "installDirName": "fx-palette",
+      "installTarget": "After Effects > Scripts > ScriptUI Panels",
+      "tags": [
+        "After Effects",
+        "ScriptUI",
+        "Capas",
+        "Colores",
+        "Productividad"
+      ],
+      "details": [
+        {
+          "title": "Colores de etiqueta",
+          "text": "Elige entre los colores de etiquetas disponibles en After Effects desde un panel visual y compacto."
+        },
+        {
+          "title": "Varias capas a la vez",
+          "text": "Selecciona varias capas en una composición y aplica el mismo color a todas con un solo clic."
+        },
+        {
+          "title": "Panel ScriptUI",
+          "text": "Se instala directamente en la carpeta ScriptUI Panels de After Effects y aparece en el menú Ventana."
+        }
+      ],
+      "instructions": [
+        "Instala Labels PRO desde ClipDock.",
+        "Cierra y vuelve a abrir After Effects si estaba abierto.",
+        "Abre el panel desde Ventana > Labels PRO o Ventana > Labels, según la versión de After Effects.",
+        "Selecciona una o varias capas y pulsa el color que quieras aplicar."
+      ],
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "links": {
+        "github": "https://github.com/depsonopsito/FX-PALETTE",
+        "release": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/2.0.0"
+      },
+      "creator": {
+        "handle": "depsonopsito",
+        "name": "Depson",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png"
+      },
+      "repo": "https://github.com/depsonopsito/FX-PALETTE",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "FX-PALETTE"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-17T01:24:39Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/2.0.0/fx-palette-after-effects-1.0.0.zip",
+      "fileName": "fx-palette-after-effects-1.0.0.zip",
+      "sha256": "b73aa2f7b8405603546e4e07703283f1aa055493baaa001e889e0aac43b6b944",
+      "sizeLabel": "2.0 KB",
+      "package": {
+        "format": "zip",
+        "file": "fx-palette-after-effects-1.0.0.zip",
+        "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/2.0.0/fx-palette-after-effects-1.0.0.zip",
+        "sha256": "b73aa2f7b8405603546e4e07703283f1aa055493baaa001e889e0aac43b6b944",
+        "sizeBytes": 1997,
+        "sizeLabel": "2.0 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-17T01:24:39Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "FX-PALETTE",
+        "tag": "v2.0.0",
+        "url": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/2.0.0",
+        "publishedAt": "2026-07-17T01:24:39Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "graph-editor-ae",
+      "slug": "graph-editor-ae",
+      "name": "GraphEditor",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Editor visual de curvas Bézier y velocidad para After Effects.",
+      "description": "Panel CEP para controlar influencia y velocidad de tus keyframes de forma gráfica, con presets de ease y aplicación en tiempo real sobre el Graph Editor nativo.",
+      "installDirName": "graph-editor-ae",
+      "tags": [
+        "After Effects",
+        "CEP",
+        "Animación"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20GraphEditor",
+        "release": "https://github.com/depsonopsito/GraphEditorAE/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Editor visual de curvas",
+          "text": "Manipula los manejadores de influencia y velocidad desde una interfaz amigable, sin pelear con el editor de gráficos nativo."
+        },
+        {
+          "title": "Control de influencia y speed",
+          "text": "Ajusta numérica o visualmente el comportamiento de tus animaciones, con soporte multicapa y multipropiedad."
+        },
+        {
+          "title": "Presets de ease",
+          "text": "Aplica configuraciones de facilidad predefinidas al instante para flujos de trabajo veloces."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-adobe-cep",
+      "cepSubdir": "GraphEditorAE",
+      "cepDirName": "GraphEditor",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/GraphEditorAE",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "GraphEditorAE"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T03:15:47Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/graph-editor-ae/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/graph-editor-ae/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/GraphEditorAE/releases/download/1.0.0/GraphEditorAE.zip",
+      "fileName": "GraphEditorAE.zip",
+      "sha256": "bec70e34a12a202d2db969b1f24e8aec459053b5cafa66fad8a1c04a8d92ac2e",
+      "sizeLabel": "42.7 KB",
+      "package": {
+        "format": "zip",
+        "file": "GraphEditorAE.zip",
+        "downloadUrl": "https://github.com/depsonopsito/GraphEditorAE/releases/download/1.0.0/GraphEditorAE.zip",
+        "sha256": "bec70e34a12a202d2db969b1f24e8aec459053b5cafa66fad8a1c04a8d92ac2e",
+        "sizeBytes": 43733,
+        "sizeLabel": "42.7 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T03:15:47Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "GraphEditorAE",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/GraphEditorAE/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T03:15:47Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/graph-editor-ae/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/graph-editor-ae/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "mask-unlinker",
+      "slug": "mask-unlinker",
+      "name": "Mask Unlinker",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "after-effects",
+      "type": "after-effects-script",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Desvincula máscaras y acelera el trabajo con mask paths en After Effects.",
+      "description": "Panel ScriptUI para After Effects que ayuda a desvincular (unlink) máscaras y agilizar tareas comunes con mask paths, ideal para rotoscopia, motion graphics y ajustes finos de formas.",
+      "installDirName": "mask-unlinker",
+      "tags": [
+        "After Effects",
+        "Script",
+        "Máscaras"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Mask%20Unlinker",
+        "release": "https://github.com/depsonopsito/Mask-Unliker/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Deslinkea máscaras",
+          "text": "Desvincula máscaras para editarlas de forma más rápida e independiente."
+        },
+        {
+          "title": "Flujo acelerado",
+          "text": "Agiliza el trabajo cuando manejas muchas máscaras en un mismo layer."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-ae-script",
+      "aeScriptFile": "Mask Unlinker.jsx",
+      "installTarget": "After Effects > Scripts > ScriptUI Panels",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/Mask-Unliker",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Mask-Unliker"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T03:18:25Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mask-unlinker/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mask-unlinker/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Mask-Unliker/releases/download/1.0.0/Mask-Unliker.zip",
+      "fileName": "Mask-Unliker.zip",
+      "sha256": "80dd70f629f811253ad30d01ed9f910be87e833f21bfe007611fb012ff0fa6de",
+      "sizeLabel": "7.2 KB",
+      "package": {
+        "format": "zip",
+        "file": "Mask-Unliker.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Mask-Unliker/releases/download/1.0.0/Mask-Unliker.zip",
+        "sha256": "80dd70f629f811253ad30d01ed9f910be87e833f21bfe007611fb012ff0fa6de",
+        "sizeBytes": 7371,
+        "sizeLabel": "7.2 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T03:18:25Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Mask-Unliker",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/Mask-Unliker/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T03:18:25Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mask-unlinker/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mask-unlinker/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "mediavault",
+      "slug": "mediavault",
+      "name": "MediaVault",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "After Effects",
+        "Premiere Pro"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Biblioteca de medios centralizada para After Effects y Premiere Pro.",
+      "description": "Vincula carpetas locales (SFX, música, B-roll, imágenes) y úsalas como biblioteca sin salir del programa: preview con forma de onda, importación inteligente y copia automática al proyecto.",
+      "installDirName": "mediavault",
+      "tags": [
+        "After Effects",
+        "Premiere Pro",
+        "CEP",
+        "Biblioteca"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20MediaVault",
+        "release": "https://github.com/depsonopsito/MediaVault/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Biblioteca integrada",
+          "text": "Indexa automáticamente audios, videos, imágenes y presets .ffx de las carpetas que vincules."
+        },
+        {
+          "title": "Preview e importación",
+          "text": "Previsualiza audio con forma de onda y video con scrubbing; importa con doble clic o arrastrando al timeline."
+        },
+        {
+          "title": "Copia automática al proyecto",
+          "text": "Duplica el media usado dentro de la carpeta de tu .aep/.prproj en subcarpetas ordenadas, evitando enlaces rotos y duplicados."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-adobe-cep",
+      "cepSubdir": "cep",
+      "cepDirName": "MediaVault",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/MediaVault",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "MediaVault"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T03:24:05Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mediavault/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mediavault/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/MediaVault/releases/download/1.0.0/MediaVault.zip",
+      "fileName": "MediaVault.zip",
+      "sha256": "8a4ab9e018722ef5a9a15a0ace20233f52748d3f73a44f2f9268b1b59b5550a7",
+      "sizeLabel": "59.3 KB",
+      "package": {
+        "format": "zip",
+        "file": "MediaVault.zip",
+        "downloadUrl": "https://github.com/depsonopsito/MediaVault/releases/download/1.0.0/MediaVault.zip",
+        "sha256": "8a4ab9e018722ef5a9a15a0ace20233f52748d3f73a44f2f9268b1b59b5550a7",
+        "sizeBytes": 60718,
+        "sizeLabel": "59.3 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T03:24:05Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "MediaVault",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/MediaVault/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T03:24:05Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mediavault/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/mediavault/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "premiere-hybrid-organizer",
+      "slug": "premiere-hybrid-organizer",
+      "name": "PR Hybrid Organizer",
+      "author": "Depson",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "Adobe CEP",
+        "Premiere Pro"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Organiza bins y consolida medios en la carpeta del proyecto, directo en Premiere Pro.",
+      "description": "Panel CEP híbrido: ordena automáticamente el panel de proyecto en bins y mueve o copia los medios usados a la carpeta del proyecto para dejarlo portable y limpio.",
+      "installMode": "download-adobe-cep",
+      "installDirName": "premiere-hybrid-organizer",
+      "tags": [
+        "Adobe CEP",
+        "Premiere",
+        "Organización",
+        "Medios"
+      ],
+      "cepSubdir": "cep",
+      "cepDirName": "PremiereHybridOrganizer",
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "links": {
+        "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20PR%20Hybrid%20Organizer",
+        "release": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/tag/1.0.0"
+      },
+      "details": [
+        {
+          "title": "Tu proyecto necesita su propia carpeta",
+          "text": "Guarda el .prproj en una carpeta dedicada antes de usarlo: esa carpeta es la raíz donde el complemento organiza y consolida todo el material."
+        },
+        {
+          "title": "Organiza el panel en un clic",
+          "text": "“Solo organizar panel” reordena los bins del proyecto — Secuencias (Master y Anidadas), Footage separado por tipo (MP4 · MOV · WAV…) y Assets — sin mover ni un archivo del disco."
+        },
+        {
+          "title": "Consolidar: lo de Descargas se MUEVE",
+          "text": "Al dar “Analizar y preparar”, los medios que estén en tu carpeta de Descargas se mueven a la carpeta del proyecto. Descargas queda limpia y el proyecto se vuelve portable."
+        },
+        {
+          "title": "Lo demás solo se COPIA",
+          "text": "Los archivos que vivan en cualquier otra carpeta (plantillas, packs, bibliotecas) se copian en lugar de moverse: el original no se toca y tus plantillas siguen intactas para el siguiente proyecto."
+        },
+        {
+          "title": "Resultado: proyecto autocontenido",
+          "text": "Todo el material queda dentro de la carpeta del proyecto. Muévela a otro disco o PC y el proyecto abre completo, sin medios offline."
+        }
+      ],
+      "creator": {
+        "handle": "depsoniac",
+        "name": "Depson",
+        "github": "https://github.com/depsoniac",
+        "avatar": "https://github.com/depsoniac.png",
+        "instagram": "https://www.instagram.com/depsonop/",
+        "twitter": "https://x.com/depsonop"
+      },
+      "repo": "https://github.com/depsonopsito/premiere-hybrid-organizer",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "premiere-hybrid-organizer"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T04:50:04Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/premiere-hybrid-organizer/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/premiere-hybrid-organizer/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/download/1.0.0/premiere-hybrid-organizer-1.0.0.zip",
+      "fileName": "premiere-hybrid-organizer-1.0.0.zip",
+      "sha256": "e5baf4ee34da42dd6b339ee641eb720515e4602368f4a93d913995f3524d3ec3",
+      "sizeLabel": "52.4 KB",
+      "package": {
+        "format": "zip",
+        "file": "premiere-hybrid-organizer-1.0.0.zip",
+        "downloadUrl": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/download/1.0.0/premiere-hybrid-organizer-1.0.0.zip",
+        "sha256": "e5baf4ee34da42dd6b339ee641eb720515e4602368f4a93d913995f3524d3ec3",
+        "sizeBytes": 53634,
+        "sizeLabel": "52.4 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T04:50:04Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "premiere-hybrid-organizer",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T04:50:04Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/premiere-hybrid-organizer/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/premiere-hybrid-organizer/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "shuttle",
+      "slug": "shuttle",
+      "name": "Shuttle",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "Illustrator",
+        "Photoshop"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Envía y recibe contenido entre Illustrator y Photoshop con un clic.",
+      "description": "Extensión CEP que acelera el flujo entre vector (Illustrator) y composición (Photoshop): Push, Pull y Switch manteniendo posición, tamaño y, cuando es posible, texto editable.",
+      "installDirName": "shuttle",
+      "tags": [
+        "Illustrator",
+        "Photoshop",
+        "CEP",
+        "Workflow"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Shuttle",
+        "release": "https://github.com/depsonopsito/Shuttle-main/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Push / Pull",
+          "text": "Envía la selección actual a la otra aplicación o tráela hacia donde estás trabajando."
+        },
+        {
+          "title": "Illustrator → Photoshop",
+          "text": "Coloca la selección como Smart Object vinculado, respetando tamaño y posición respecto al artboard."
+        },
+        {
+          "title": "Switch",
+          "text": "Cambia el foco entre Illustrator y Photoshop al instante."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-adobe-cep",
+      "cepSubdir": "cep",
+      "cepDirName": "Shuttle",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/Shuttle-main",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Shuttle-main"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T03:28:27Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/shuttle/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/shuttle/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/Shuttle-main/releases/download/1.0.0/Shuttle.zip",
+      "fileName": "Shuttle.zip",
+      "sha256": "70b09e470482bf670694ebd30de99da8bafea6eac8e73be77ffd8b29e109982d",
+      "sizeLabel": "66.6 KB",
+      "package": {
+        "format": "zip",
+        "file": "Shuttle.zip",
+        "downloadUrl": "https://github.com/depsonopsito/Shuttle-main/releases/download/1.0.0/Shuttle.zip",
+        "sha256": "70b09e470482bf670694ebd30de99da8bafea6eac8e73be77ffd8b29e109982d",
+        "sizeBytes": 68189,
+        "sizeLabel": "66.6 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T03:28:27Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "Shuttle-main",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/Shuttle-main/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T03:28:27Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/shuttle/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/shuttle/plugin.json"
+    },
+    {
+      "schema": "clipdock.plugin.v1",
+      "id": "text-presets-ae",
+      "slug": "text-presets-ae",
+      "name": "TextPresets",
+      "author": "Animateo",
+      "authorLocation": "Colombia",
+      "category": "adobe",
+      "type": "adobe-cep",
+      "host": [
+        "After Effects"
+      ],
+      "minClipDockVersion": "0.0.1",
+      "version": "1.0.0",
+      "summary": "Aplica y gestiona tu librería de presets de texto (.ffx) en un clic.",
+      "description": "Extensión CEP para automatizar tu flujo tipográfico en After Effects: aplica animaciones de entrada y salida con timing automático, organiza favoritos, importa .ffx y hasta gestiona subtítulos .srt.",
+      "installDirName": "text-presets-ae",
+      "tags": [
+        "After Effects",
+        "CEP",
+        "Tipografía",
+        "Presets"
+      ],
+      "links": {
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com",
+        "support": "mailto:mateosistema@gmail.com?subject=Soporte%20TextPresets",
+        "release": "https://github.com/depsonopsito/TextsPresetsAE/releases/tag/1.0.0"
+      },
+      "images": {
+        "logo": "assets/logo.svg",
+        "banner": "assets/banner.svg"
+      },
+      "credit": {
+        "by": "Animateo",
+        "location": "Colombia",
+        "github": "https://github.com/Animateoo",
+        "instagram": "https://www.instagram.com/animateoo/",
+        "email": "mateosistema@gmail.com"
+      },
+      "details": [
+        {
+          "title": "Aplicación instantánea",
+          "text": "Aplica animaciones profesionales de entrada y salida con un solo botón, alineadas al InPoint y OutPoint de la capa."
+        },
+        {
+          "title": "Librería personalizable",
+          "text": "Organiza tus .ffx, impórtalos y guarda tus combinaciones como nuevos presets desde el panel."
+        },
+        {
+          "title": "Subtítulos SRT",
+          "text": "Importación nativa de archivos .srt para flujos de subtitulado veloces."
+        },
+        {
+          "title": "Hecho por Animateo (Colombia)",
+          "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+        }
+      ],
+      "installMode": "download-adobe-cep",
+      "cepSubdir": "TextPresets",
+      "cepDirName": "TextPresets",
+      "creator": {
+        "handle": "Animateoo",
+        "name": "Animateo",
+        "github": "https://github.com/Animateoo",
+        "avatar": "https://github.com/Animateoo.png"
+      },
+      "repo": "https://github.com/depsonopsito/TextsPresetsAE",
+      "repository": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "TextsPresetsAE"
+      },
+      "release": {
+        "mode": "resolved",
+        "resolvedAt": "2026-07-11T03:30:38Z"
+      },
+      "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/text-presets-ae/assets/logo.svg",
+      "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/text-presets-ae/assets/banner.svg",
+      "screenshotUrls": [],
+      "downloadUrl": "https://github.com/depsonopsito/TextsPresetsAE/releases/download/1.0.0/TextsPresetsAE.zip",
+      "fileName": "TextsPresetsAE.zip",
+      "sha256": "17b641d2cb4cd66e275bc6ac4c6390e4368cabdcb8b71d0c0b00f9ba1a20c14f",
+      "sizeLabel": "4.6 MB",
+      "package": {
+        "format": "zip",
+        "file": "TextsPresetsAE.zip",
+        "downloadUrl": "https://github.com/depsonopsito/TextsPresetsAE/releases/download/1.0.0/TextsPresetsAE.zip",
+        "sha256": "17b641d2cb4cd66e275bc6ac4c6390e4368cabdcb8b71d0c0b00f9ba1a20c14f",
+        "sizeBytes": 4775759,
+        "sizeLabel": "4.6 MB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-11T03:30:38Z"
+      },
+      "releaseInfo": {
+        "provider": "github",
+        "owner": "depsonopsito",
+        "repo": "TextsPresetsAE",
+        "tag": "v1.0.0",
+        "url": "https://github.com/depsonopsito/TextsPresetsAE/releases/tag/1.0.0",
+        "publishedAt": "2026-07-11T03:30:38Z"
+      },
+      "available": true,
+      "releaseError": "",
+      "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/text-presets-ae/",
+      "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/text-presets-ae/plugin.json"
+    }
+  ]
+}

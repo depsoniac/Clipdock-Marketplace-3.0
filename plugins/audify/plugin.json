@@ -1,0 +1,74 @@
+{
+  "schema": "clipdock.plugin.v1",
+  "id": "audify",
+  "slug": "audify",
+  "name": "Audify",
+  "author": "Animateo",
+  "authorLocation": "Colombia",
+  "category": "after-effects",
+  "type": "after-effects-script",
+  "host": [
+    "After Effects"
+  ],
+  "minClipDockVersion": "0.0.1",
+  "version": "1.0.0",
+  "summary": "Control rápido de volumen y ducking automático en After Effects.",
+  "description": "Panel ScriptUI para After Effects que ayuda a controlar el volumen rápido y a hacer ducking automático (bajar la música cuando entra voz o diálogo).",
+  "installDirName": "audify",
+  "tags": [
+    "After Effects",
+    "Script",
+    "Audio"
+  ],
+  "links": {
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com",
+    "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Audify",
+    "release": "https://github.com/depsonopsito/Audify-After-Effect/releases/latest"
+  },
+  "images": {
+    "logo": "assets/logo.svg",
+    "banner": "assets/banner.svg"
+  },
+  "credit": {
+    "by": "Animateo",
+    "location": "Colombia",
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com"
+  },
+  "details": [
+    {
+      "title": "Control de volumen",
+      "text": "Ajusta el volumen de tus capas de audio de forma rápida desde el panel."
+    },
+    {
+      "title": "Ducking automático",
+      "text": "Baja automáticamente la música cuando entra voz o diálogo para mantener la claridad."
+    },
+    {
+      "title": "Hecho por Animateo (Colombia)",
+      "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+    }
+  ],
+  "installMode": "download-ae-script",
+  "aeScriptFile": "Audify.jsx",
+  "installTarget": "After Effects > Scripts > ScriptUI Panels",
+  "creator": {
+    "handle": "Animateoo",
+    "name": "Animateo",
+    "github": "https://github.com/Animateoo",
+    "avatar": "https://github.com/Animateoo.png"
+  },
+  "repo": "https://github.com/depsonopsito/Audify-After-Effect",
+  "repository": {
+    "provider": "github",
+    "owner": "depsonopsito",
+    "repo": "Audify-After-Effect"
+  },
+  "release": {
+    "mode": "github-latest-release",
+    "assetName": "Audify-After-Effect-main.zip"
+  }
+}

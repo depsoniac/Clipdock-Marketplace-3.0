@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200.36 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #edf4f8;
+        font-size: 14px;
+        letter-spacing: .09em;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        isolation: isolate;
+      }
+
+      .st0, .st6, .st7 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st1 {
+        opacity: .3;
+      }
+
+      .st1, .st8, .st5 {
+        fill: none;
+      }
+
+      .st1, .st8, .st5, .st9, .st10, .st11 {
+        stroke: #ffe066;
+      }
+
+      .st1, .st10 {
+        stroke-width: 2px;
+      }
+
+      .st12 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st3 {
+        opacity: .08;
+      }
+
+      .st3, .st6, .st13 {
+        fill: #ffe066;
+      }
+
+      .st4 {
+        fill: #b7c3d1;
+        font-family: ArialMT, Arial;
+        font-size: 22px;
+      }
+
+      .st8 {
+        stroke-width: 6px;
+      }
+
+      .st8, .st5 {
+        stroke-linecap: round;
+      }
+
+      .st5 {
+        opacity: .7;
+        stroke-width: 3px;
+      }
+
+      .st6 {
+        font-size: 20px;
+        letter-spacing: .2em;
+      }
+
+      .st9, .st10 {
+        stroke-opacity: .55;
+      }
+
+      .st9, .st11 {
+        fill: #161b24;
+      }
+
+      .st7 {
+        fill: #f5f7fb;
+        font-size: 66px;
+      }
+
+      .st10 {
+        fill: #17221b;
+      }
+
+      .st11 {
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .st14 {
+        fill: url(#Degradado_sin_nombre_8);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_8" data-name="Degradado sin nombre 8" x1=".28" y1="558" x2="1200.28" y2="1078" gradientTransform="translate(0 -558)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1017"/>
+      <stop offset=".58" stop-color="#121b27"/>
+      <stop offset="1" stop-color="#15101e"/>
+    </linearGradient>
+    <radialGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" cx="-717.12" cy="-1.96" fx="-717.12" fy="-1.96" r="1" gradientTransform="translate(-136031.1491 235704.2922) rotate(120) scale(380 460)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe066" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffe066" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect class="st14" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <rect class="st12" x=".28" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st1" d="M.28,465c230-67,350,35,568-60,218-95,287-228,632-201"/>
+  <g class="st2">
+    <text class="st6" transform="translate(67.17 80.47)"><tspan x="0" y="0">LIMPIA Y OPTIMIZA</tspan></text>
+  </g>
+  <g class="st2">
+    <text class="st7" transform="translate(822.05 470.62)"><tspan x="0" y="0">Cache Pro</tspan></text>
+  </g>
+  <g class="st2">
+    <text class="st4" transform="translate(55.91 183)"><tspan x="0" y="0">Recupera rendimiento y limpia cache de After Effects.</tspan></text>
+  </g>
+  <path class="st9" d="M79.77,105h76c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-76c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+  <g class="st2">
+    <text class="st0" transform="translate(89.63 132)"><tspan x="0" y="0">CACHE</tspan></text>
+  </g>
+  <path class="st9" d="M211.77,105h76c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-76c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21h0Z"/>
+  <g class="st2">
+    <text class="st0" transform="translate(231.88 132)"><tspan x="0" y="0">RAM</tspan></text>
+  </g>
+  <path class="st9" d="M343.77,105h147c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-147c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+  <g class="st2">
+    <text class="st0" transform="translate(361.25 132)"><tspan x="0" y="0">RENDIMIENTO</tspan></text>
+  </g>
+  <g>
+    <rect class="st10" x="842.28" y="88" width="286" height="310" rx="28" ry="28"/>
+    <g id="trash-can">
+      <circle class="st3" cx="985.28" cy="243" r="115.06"/>
+      <path class="st11" d="M918.9,167.27l13.28,172.59h106.21l13.28-172.59h-132.76Z"/>
+      <path class="st8" d="M901.2,167.27h168.17"/>
+      <path class="st13" d="M952.09,138.5h66.38c9.74,0,17.7,7.97,17.7,17.7v11.06h-101.79v-11.06c0-9.74,7.97-17.7,17.7-17.7Z"/>
+      <path class="st5" d="M896.77,132.36l15.49,15.49M912.26,132.36l-15.49,15.49M1071.58,293.89l13.28,13.28M1084.85,293.89l-13.28,13.28"/>
+    </g>
+    <path class="st13" d="M992.28,187.62l-45.08,69.19h36.17l-11.53,53.47,45.6-76.01h-35.12s9.96-46.65,9.96-46.65Z"/>
+  </g>
+</svg>

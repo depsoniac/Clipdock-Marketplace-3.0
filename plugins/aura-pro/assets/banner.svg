@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1207.49 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #161b24;
+      }
+
+      .st0, .st1 {
+        stroke-opacity: .55;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #ffbf5b;
+      }
+
+      .st3 {
+        fill: #ffd35c;
+      }
+
+      .st4 {
+        stroke: #ff6f91;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .st5 {
+        fill: #6cdf9c;
+      }
+
+      .st6 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st7 {
+        fill: #b7c3d1;
+        font-family: ArialMT, Arial;
+        font-size: 22px;
+      }
+
+      .st7, .st8, .st9, .st10, .st2 {
+        isolation: isolate;
+      }
+
+      .st11 {
+        fill: #ff6f91;
+      }
+
+      .st8 {
+        fill: #ffbf5b;
+        opacity: .22;
+      }
+
+      .st1 {
+        fill: #16142b;
+      }
+
+      .st1, .st2 {
+        stroke-width: 2px;
+      }
+
+      .st12 {
+        fill: #9b86ff;
+      }
+
+      .st13 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st9 {
+        fill: #edf4f8;
+        font-size: 14px;
+        letter-spacing: .09em;
+      }
+
+      .st9, .st10 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st14 {
+        fill: #69d6ff;
+      }
+
+      .st10 {
+        fill: #f5f7fb;
+        font-size: 66px;
+      }
+
+      .st2 {
+        fill: none;
+        opacity: .3;
+      }
+
+      .st15 {
+        fill: #151624;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="0" y1="522" x2="1200" y2="2" gradientTransform="translate(0 522) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1017"/>
+      <stop offset=".58" stop-color="#121b27"/>
+      <stop offset="1" stop-color="#15101e"/>
+    </linearGradient>
+    <radialGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" cx="-358.84" cy="801.98" fx="-358.84" fy="801.98" r="1" gradientTransform="translate(-386664.7105 -66205.8118) rotate(120) scale(380 -460)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffbf5b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffbf5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect class="st13" width="1200" height="520" rx="28" ry="28"/>
+  <rect class="st6" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st2" d="M7.41,368.27c230-67,350,35,568-60s287-228,632-201"/>
+  <text class="st10" transform="translate(842 472.35)"><tspan x="0" y="0">Aura Pro</tspan></text>
+  <text class="st7" transform="translate(60 142)"><tspan x="0" y="0">Organiza y aplica colores a tus composiciones.</tspan></text>
+  <path class="st0" d="M82.06,60.21h95c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-95c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+  <text class="st9" transform="translate(93.38 87.21)"><tspan x="0" y="0">PALETAS</tspan></text>
+  <path class="st0" d="M233.06,60.21h76c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-76c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+  <text class="st9" transform="translate(253.68 87.21)"><tspan x="0" y="0">FILL</tspan></text>
+  <path class="st0" d="M365.06,60.21h82c11.6,0,21,9.4,21,21h0c0,11.6-9.4,21-21,21h-82c-11.6,0-21-9.4-21-21h0c0-11.6,9.4-21,21-21Z"/>
+  <text class="st9" transform="translate(372.99 87.21)"><tspan x="0" y="0">STROKE</tspan></text>
+  <g>
+    <rect class="st1" x="842" y="88" width="286" height="310" rx="28" ry="28"/>
+    <circle class="st8" cx="985" cy="236" r="94"/>
+    <circle class="st11" cx="983.58" cy="236" r="20.68"/>
+    <circle class="st3" cx="983.58" cy="172.89" r="20.68"/>
+    <circle class="st14" cx="1047.61" cy="235.67" r="20.68"/>
+    <circle class="st12" cx="983.58" cy="297.48" r="20.68"/>
+    <circle class="st5" cx="920.93" cy="236" r="20.68"/>
+    <circle class="st15" cx="983.58" cy="235.67" r="30"/>
+    <path class="st4" d="M936,353h98"/>
+  </g>
+</svg>

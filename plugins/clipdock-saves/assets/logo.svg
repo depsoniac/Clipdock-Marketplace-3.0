@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 246 246">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Degradado_sin_nombre);
+        stroke: #4fb9d0;
+        stroke-width: 6px;
+      }
+
+      .st1 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .st2 {
+        fill: #ff3e5a;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-814.54" y1="644.29" x2="-594.54" y2="424.29" gradientTransform="translate(199812 158952) scale(240 -240)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10232c"/>
+      <stop offset="1" stop-color="#18172b"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="-774.22" y1="587.87" x2="-629.15" y2="392.03" gradientTransform="translate(97881 113171) scale(118 -171)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#64dfff"/>
+      <stop offset="1" stop-color="#9a88ff"/>
+    </linearGradient>
+  </defs>
+  <rect class="st0" x="3" y="3" width="240" height="240" rx="58" ry="58"/>
+  <path class="st1" d="M35.03,38.42h175.94v171l-87.97-37-87.97,37V38.42Z"/>
+  <path class="st2" d="M177.82,47.47l-4.32-2.8-7.38-2.55-8.39-.25-5.6,1.27-9.16,5.34-20.1,20.1-1.01,2.04.76,4.32,3.05,2.29,3.82-.25,21.62-21.12,5.6-2.8,5.85-.51,6.36,2.04,4.58,3.82,3.05,5.34.77,6.61-1.02,4.33-2.55,4.32-36.63,36.64-5.6,2.8-5.85.5-6.87-2.29-5.09-3.81-3.05-.26-1.78.77-2.29,3.05v3.05l2.04,3.06,5.59,4.07,7.89,2.79,8.39.26,8.15-2.29,6.61-4.33,36.13-36.12,3.56-5.09,2.03-4.83,1.02-11.45-2.8-9.16-2.8-4.32-4.58-4.58ZM132.54,92.75l-6.61-3.82-6.87-1.78-8.4.26-7.89,2.8-5.08,3.56-33.08,33.07-3.56,5.09-2.03,4.83-1.02,4.84v6.61l2.8,9.16,5.34,7.12,6.36,4.58,7.38,2.55,8.39.25,4.84-1.02,4.83-2.03,5.09-3.56,17.04-17.05,1.02-2.29-.76-4.07-3.31-2.29-3.56.26-18.57,18.06-5.6,2.8-5.85.51-6.36-2.04-4.58-3.82-3.31-6.36-.51-5.59,1.02-4.33,2.29-4.07,33.84-33.83,5.59-2.8,5.86-.51,6.36,2.03,5.34,4.07,3.31.26,1.78-.76,2.29-3.31-.51-4.07-3.31-3.31Z"/>
+</svg>

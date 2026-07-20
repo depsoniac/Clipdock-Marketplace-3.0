@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200.46 520">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #102328;
+      }
+
+      .st1 {
+        fill: #5ea999;
+      }
+
+      .st2 {
+        fill: #fff0a2;
+      }
+
+      .st3 {
+        fill: #58e09d;
+      }
+
+      .st4 {
+        fill: #c9ff3d;
+      }
+
+      .st5 {
+        fill: #63e8ac;
+      }
+
+      .st6 {
+        fill: #74bddf;
+      }
+
+      .st7 {
+        fill: #142c30;
+        stroke-opacity: .48;
+      }
+
+      .st7, .st8 {
+        stroke: #5ce2a0;
+        stroke-width: 2px;
+      }
+
+      .st9 {
+        fill: #0c1f25;
+      }
+
+      .st10 {
+        stroke: #fff0a2;
+        stroke-linejoin: round;
+        stroke-width: 7px;
+      }
+
+      .st10, .st8, .st11 {
+        fill: none;
+      }
+
+      .st10, .st11, .st12 {
+        stroke-linecap: round;
+      }
+
+      .st8 {
+        isolation: isolate;
+        opacity: .22;
+      }
+
+      .st13 {
+        fill: #b8ffe0;
+      }
+
+      .st14 {
+        fill: #ffd15b;
+      }
+
+      .st15 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st11 {
+        stroke: #1a382c;
+        stroke-width: 6px;
+      }
+
+      .st16 {
+        stroke: #2c5152;
+      }
+
+      .st16, .st12 {
+        stroke-width: 5px;
+      }
+
+      .st12 {
+        stroke: #173122;
+      }
+
+      .st17 {
+        fill: #4c9380;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-595.04" y1="1.07" x2="-594.04" y2="2.07" gradientTransform="translate(714050.8573 -558) scale(1200 520)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09161a"/>
+      <stop offset=".55" stop-color="#0e292a"/>
+      <stop offset="1" stop-color="#122235"/>
+    </linearGradient>
+  </defs>
+  <rect class="st15" x=".46" width="1200" height="520" rx="28" ry="28"/>
+  <path class="st8" d="M.46,400.37c172.89-89,332.84-64,465.34-18,201.97,70,290.84-55,512.19-58"/>
+  <g>
+    <rect class="st7" x="759.53" y="98.52" width="346.72" height="322.96" rx="30" ry="30"/>
+    <rect class="st9" x="784.28" y="123.48" width="297.22" height="68.93" rx="17" ry="17"/>
+    <circle class="st4" cx="819.19" cy="157.5" r="17.9"/>
+    <path class="st12" d="M811.13,157.5h16.11M819.19,149.44v16.11"/>
+    <path class="st13" d="M860.82,142.28h83.26c2.72,0,4.92,2.2,4.92,4.92h0c0,2.72-2.2,4.92-4.92,4.92h-83.26c-2.72,0-4.92-2.2-4.92-4.92h0c0-2.72,2.2-4.92,4.92-4.92Z"/>
+    <path class="st1" d="M859.48,163.76h128.02c1.98,0,3.58,1.6,3.58,3.58h0c0,1.98-1.6,3.58-3.58,3.58h-128.02c-1.98,0-3.58-1.6-3.58-3.58h0c0-1.98,1.6-3.58,3.58-3.58Z"/>
+    <rect class="st0" x="784.28" y="215.69" width="185.31" height="170.1" rx="20" ry="20"/>
+    <path class="st16" d="M812.48,356.24h135.18"/>
+    <path class="st10" d="M806.68,321.32l57.3-40.29,41.18,22.38,42.5-64.02"/>
+    <rect class="st3" x="820.8" y="286.41" width="24.17" height="61.77" rx="8" ry="8"/>
+    <rect class="st4" x="865.74" y="253.29" width="24.17" height="94.9" rx="8" ry="8"/>
+    <rect class="st6" x="911.85" y="269.97" width="24.17" height="77.89" rx="8" ry="8"/>
+    <circle class="st2" cx="909.61" cy="246.56" r="7.16"/>
+    <rect class="st0" x="987.5" y="215.69" width="94" height="170.1" rx="20" ry="20"/>
+    <circle class="st14" cx="1034.94" cy="270.3" r="33.12"/>
+    <path class="st11" d="M1034.94,243.89v52.82M1019.28,285.18c8.06,8.06,30.44,8.06,30.44-4.48,0-16.11-28.65-6.27-28.65-21.49,0-11.64,22.38-11.64,28.65-4.48"/>
+    <path class="st5" d="M1009.43,327.59h51.03c2.72,0,4.92,2.2,4.92,4.92h0c0,2.72-2.2,4.92-4.92,4.92h-51.03c-2.72,0-4.92-2.2-4.92-4.92h0c0-2.72,2.2-4.92,4.92-4.92Z"/>
+    <path class="st17" d="M1017.04,352.66h35.81c1.98,0,3.58,1.6,3.58,3.58h0c0,1.98-1.6,3.58-3.58,3.58h-35.81c-1.98,0-3.58-1.6-3.58-3.58h0c0-1.98,1.6-3.58,3.58-3.58Z"/>
+  </g>
+</svg>

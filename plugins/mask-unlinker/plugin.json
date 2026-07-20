@@ -1,0 +1,74 @@
+{
+  "schema": "clipdock.plugin.v1",
+  "id": "mask-unlinker",
+  "slug": "mask-unlinker",
+  "name": "Mask Unlinker",
+  "author": "Animateo",
+  "authorLocation": "Colombia",
+  "category": "after-effects",
+  "type": "after-effects-script",
+  "host": [
+    "After Effects"
+  ],
+  "minClipDockVersion": "0.0.1",
+  "version": "1.0.0",
+  "summary": "Desvincula máscaras y acelera el trabajo con mask paths en After Effects.",
+  "description": "Panel ScriptUI para After Effects que ayuda a desvincular (unlink) máscaras y agilizar tareas comunes con mask paths, ideal para rotoscopia, motion graphics y ajustes finos de formas.",
+  "installDirName": "mask-unlinker",
+  "tags": [
+    "After Effects",
+    "Script",
+    "Máscaras"
+  ],
+  "links": {
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com",
+    "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Mask%20Unlinker",
+    "release": "https://github.com/depsonopsito/Mask-Unliker/releases/latest"
+  },
+  "images": {
+    "logo": "assets/logo.svg",
+    "banner": "assets/banner.svg"
+  },
+  "credit": {
+    "by": "Animateo",
+    "location": "Colombia",
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com"
+  },
+  "details": [
+    {
+      "title": "Deslinkea máscaras",
+      "text": "Desvincula máscaras para editarlas de forma más rápida e independiente."
+    },
+    {
+      "title": "Flujo acelerado",
+      "text": "Agiliza el trabajo cuando manejas muchas máscaras en un mismo layer."
+    },
+    {
+      "title": "Hecho por Animateo (Colombia)",
+      "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+    }
+  ],
+  "installMode": "download-ae-script",
+  "aeScriptFile": "Mask Unlinker.jsx",
+  "installTarget": "After Effects > Scripts > ScriptUI Panels",
+  "creator": {
+    "handle": "Animateoo",
+    "name": "Animateo",
+    "github": "https://github.com/Animateoo",
+    "avatar": "https://github.com/Animateoo.png"
+  },
+  "repo": "https://github.com/depsonopsito/Mask-Unliker",
+  "repository": {
+    "provider": "github",
+    "owner": "depsonopsito",
+    "repo": "Mask-Unliker"
+  },
+  "release": {
+    "mode": "github-latest-release",
+    "assetName": "Mask-Unliker.zip"
+  }
+}

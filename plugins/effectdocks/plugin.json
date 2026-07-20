@@ -1,0 +1,50 @@
+{
+  "schema": "clipdock.plugin.v1",
+  "id": "effectdocks",
+  "slug": "effectdocks",
+  "name": "EffectDocks",
+  "author": "Depson",
+  "category": "premiere",
+  "type": "clipdock-symbiont",
+  "installMode": "clipdock-symbiont",
+  "version": "1.0.0",
+  "minClipDockVersion": "2.0.0",
+  "summary": "Busca, previsualiza y aplica efectos de Premiere desde ClipDock en perfecta sincronía.",
+  "description": "Sistema bidireccional para Premiere Pro y ClipDock. Abre la búsqueda con Ctrl + Espacio, filtra efectos en ambas interfaces, reproduce sus previews animadas y permite aplicar cualquier efecto al clip seleccionado desde Premiere o desde el doclet. Incluye favoritos y restablecimiento automático después de aplicar.",
+  "installDirName": "effectdocks",
+  "windowEntry": "doclet/index.html",
+  "cepSubdir": "cep",
+  "cepDirName": "EffectDocks",
+  "host": ["Premiere Pro", "ClipDock"],
+  "window": { "width": 1180, "height": 760 },
+  "tags": ["Docklet", "Premiere", "Efectos", "Previsualización", "Favoritos", "CEP"],
+  "images": {
+    "logo": "assets/logo.svg",
+    "banner": "assets/banner.svg"
+  },
+  "permissions": {
+    "localStorage": true,
+    "localhostBridge": true
+  },
+  "creator": {
+    "handle": "depsonopsito",
+    "name": "Depson",
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png"
+  },
+  "repo": "https://github.com/depsonopsito/EffectDocks",
+  "repository": {
+    "provider": "github",
+    "owner": "depsonopsito",
+    "repo": "EffectDocks"
+  },
+  "links": {
+    "github": "https://github.com/depsonopsito/EffectDocks",
+    "release": "https://github.com/depsonopsito/EffectDocks/releases/latest"
+  },
+  "release": {
+    "mode": "github-latest-release",
+    "assetPattern": "effectdocks-*.zip"
+  },
+  "enabled": true
+}

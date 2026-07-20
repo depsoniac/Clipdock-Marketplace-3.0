@@ -1,0 +1,78 @@
+{
+  "schema": "clipdock.plugin.v1",
+  "id": "graph-editor-ae",
+  "slug": "graph-editor-ae",
+  "name": "GraphEditor",
+  "author": "Animateo",
+  "authorLocation": "Colombia",
+  "category": "adobe",
+  "type": "adobe-cep",
+  "host": [
+    "After Effects"
+  ],
+  "minClipDockVersion": "0.0.1",
+  "version": "1.0.0",
+  "summary": "Editor visual de curvas Bézier y velocidad para After Effects.",
+  "description": "Panel CEP para controlar influencia y velocidad de tus keyframes de forma gráfica, con presets de ease y aplicación en tiempo real sobre el Graph Editor nativo.",
+  "installDirName": "graph-editor-ae",
+  "tags": [
+    "After Effects",
+    "CEP",
+    "Animación"
+  ],
+  "links": {
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com",
+    "support": "mailto:mateosistema@gmail.com?subject=Soporte%20GraphEditor",
+    "release": "https://github.com/depsonopsito/GraphEditorAE/releases/latest"
+  },
+  "images": {
+    "logo": "assets/logo.svg",
+    "banner": "assets/banner.svg"
+  },
+  "credit": {
+    "by": "Animateo",
+    "location": "Colombia",
+    "github": "https://github.com/Animateoo",
+    "instagram": "https://www.instagram.com/animateoo/",
+    "email": "mateosistema@gmail.com"
+  },
+  "details": [
+    {
+      "title": "Editor visual de curvas",
+      "text": "Manipula los manejadores de influencia y velocidad desde una interfaz amigable, sin pelear con el editor de gráficos nativo."
+    },
+    {
+      "title": "Control de influencia y speed",
+      "text": "Ajusta numérica o visualmente el comportamiento de tus animaciones, con soporte multicapa y multipropiedad."
+    },
+    {
+      "title": "Presets de ease",
+      "text": "Aplica configuraciones de facilidad predefinidas al instante para flujos de trabajo veloces."
+    },
+    {
+      "title": "Hecho por Animateo (Colombia)",
+      "text": "Este complemento fue creado por Animateo, de Colombia. Si te sirvió, síguelo: GitHub github.com/Animateoo · Instagram @animateoo · Correo mateosistema@gmail.com"
+    }
+  ],
+  "installMode": "download-adobe-cep",
+  "cepSubdir": "GraphEditorAE",
+  "cepDirName": "GraphEditor",
+  "creator": {
+    "handle": "Animateoo",
+    "name": "Animateo",
+    "github": "https://github.com/Animateoo",
+    "avatar": "https://github.com/Animateoo.png"
+  },
+  "repo": "https://github.com/depsonopsito/GraphEditorAE",
+  "repository": {
+    "provider": "github",
+    "owner": "depsonopsito",
+    "repo": "GraphEditorAE"
+  },
+  "release": {
+    "mode": "github-latest-release",
+    "assetName": "GraphEditorAE.zip"
+  }
+}

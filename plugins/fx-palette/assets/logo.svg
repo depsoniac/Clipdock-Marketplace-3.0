@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 246 246">
+  <!-- Generator: Adobe Illustrator 30.6.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 109)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Degradado_sin_nombre);
+        stroke: #493d78;
+        stroke-width: 6px;
+      }
+
+      .st1 {
+        fill: #5cf0fc;
+      }
+
+      .st2 {
+        fill: red;
+        stroke: #39334f;
+      }
+
+      .st3 {
+        fill: #fc5c7d;
+      }
+
+      .st4 {
+        fill: #9a88ff;
+      }
+
+      .st5 {
+        fill: #fcb05c;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="13" y1="235" x2="233" y2="15" gradientTransform="translate(0 248) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17132f"/>
+      <stop offset="1" stop-color="#241326"/>
+    </linearGradient>
+  </defs>
+  <rect class="st0" x="3" y="3" width="240" height="240" rx="58" ry="58"/>
+  <g>
+    <rect class="st2" x="43.75" y="32.04" width="113.14" height="35.83" rx="9" ry="9"/>
+    <g>
+      <rect class="st4" x="18.33" y="70.46" width="209.34" height="32.06" rx="8" ry="8"/>
+      <rect class="st3" x="69.98" y="107.78" width="157.69" height="32.06" rx="8" ry="8"/>
+      <rect class="st1" x="18.33" y="141.1" width="160.15" height="32.06" rx="8" ry="8"/>
+      <rect class="st5" x="76.37" y="177.83" width="151.3" height="32.06" rx="8" ry="8"/>
+    </g>
+  </g>
+</svg>
