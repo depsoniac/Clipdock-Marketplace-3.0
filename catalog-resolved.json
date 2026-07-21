@@ -69,13 +69,13 @@
       },
       "secondaryLabel": "Ver ficha",
       "plugins": [
+        "effectdocks",
         "clipdock-remote",
         "clipdock-postits",
         "clipdock-saves",
         "clipdock-track",
         "audify",
         "premiere-hybrid-organizer",
-        "effectdocks",
         "mediavault"
       ]
     },
@@ -87,13 +87,13 @@
         "filter": "all",
         "actionLabel": "Ver todo",
         "plugins": [
+          "effectdocks",
           "clipdock-remote",
           "clipdock-postits",
           "clipdock-saves",
           "clipdock-track",
           "audify",
           "premiere-hybrid-organizer",
-          "effectdocks",
           "mediavault"
         ]
       },
