@@ -809,12 +809,12 @@
       "schema": "clipdock.plugin.v1",
       "id": "effectdocks",
       "slug": "effectdocks",
-      "name": "EffectDocks",
+      "name": "Effect Dock",
       "author": "Depson",
       "category": "premiere",
       "type": "clipdock-symbiont",
       "installMode": "clipdock-symbiont",
-      "version": "1.3.5",
+      "version": "1.0.0",
       "minClipDockVersion": "2.0.0",
       "summary": "Busca, previsualiza y aplica efectos de Premiere desde ClipDock en perfecta sincronía.",
       "description": "Sistema bidireccional para Premiere Pro y ClipDock. Abre la búsqueda con Ctrl + Espacio, filtra efectos en ambas interfaces, reproduce sus previews animadas y permite aplicar cualquier efecto al clip seleccionado desde Premiere o desde el doclet. Incluye favoritos y restablecimiento automático después de aplicar.",
@@ -855,44 +855,35 @@
       "repo": "https://github.com/depsonopsito/EffectDocks",
       "repository": {
         "provider": "github",
-        "owner": "depsonopsito",
+        "owner": "Depsoniac",
         "repo": "EffectDocks"
       },
       "links": {
         "github": "https://github.com/depsonopsito/EffectDocks",
-        "release": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.5"
+        "release": "https://github.com/depsonopsito/EffectDocks/releases/latest"
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": "2026-07-18T23:27:27Z"
+        "resolvedAt": ""
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.5/effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
-      "fileName": "effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
-      "sha256": "279fe76d26c526109c67c5ecac656c2b98b67c537b86220342015e46263cde4c",
-      "sizeLabel": "39.2 MB",
-      "package": {
-        "format": "zip",
-        "file": "effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
-        "downloadUrl": "https://github.com/depsonopsito/EffectDocks/releases/download/1.3.5/effectdocks-1.3.4-aplicacion-y-duplicados-corregidos.zip",
-        "sha256": "279fe76d26c526109c67c5ecac656c2b98b67c537b86220342015e46263cde4c",
-        "sizeBytes": 41153821,
-        "sizeLabel": "39.2 MB",
-        "source": "github-release-asset",
-        "updatedAt": "2026-07-18T23:27:27Z"
-      },
+      "downloadUrl": "",
+      "fileName": "",
+      "sha256": "",
+      "sizeLabel": "",
+      "package": {},
       "releaseInfo": {
         "provider": "github",
-        "owner": "depsonopsito",
+        "owner": "Depsoniac",
         "repo": "EffectDocks",
-        "tag": "v1.3.5",
-        "url": "https://github.com/depsonopsito/EffectDocks/releases/tag/1.3.5",
-        "publishedAt": "2026-07-18T23:27:27Z"
+        "tag": "",
+        "url": "",
+        "publishedAt": ""
       },
-      "available": true,
-      "releaseError": "",
+      "available": false,
+      "releaseError": "El repositorio no tiene releases publicados.",
       "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/",
       "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/effectdocks/plugin.json"
     },
