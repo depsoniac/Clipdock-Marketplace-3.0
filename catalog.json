@@ -71,12 +71,12 @@
       "plugins": [
         "effectdocks",
         "clipdock-remote",
+        "mediavault",
         "clipdock-postits",
         "clipdock-saves",
         "clipdock-track",
         "audify",
-        "premiere-hybrid-organizer",
-        "mediavault"
+        "premiere-hybrid-organizer"
       ]
     },
     "sections": [
