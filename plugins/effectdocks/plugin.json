@@ -15,9 +15,22 @@
   "windowEntry": "doclet/index.html",
   "cepSubdir": "cep",
   "cepDirName": "EffectDocks",
-  "host": ["Premiere Pro", "ClipDock"],
-  "window": { "width": 1180, "height": 760 },
-  "tags": ["Docklet", "Premiere", "Efectos", "Previsualización", "Favoritos", "CEP"],
+  "host": [
+    "Premiere Pro",
+    "ClipDock"
+  ],
+  "window": {
+    "width": 1180,
+    "height": 760
+  },
+  "tags": [
+    "Docklet",
+    "Premiere",
+    "Efectos",
+    "Previsualización",
+    "Favoritos",
+    "CEP"
+  ],
   "images": {
     "logo": "assets/logo.svg",
     "banner": "assets/banner.svg"
@@ -27,7 +40,7 @@
     "localhostBridge": true
   },
   "creator": {
-    "handle": "depsonopsito",
+    "handle": "depsoniac",
     "name": "Depson",
     "github": "https://github.com/depsonopsito",
     "avatar": "https://github.com/depsonopsito.png"
