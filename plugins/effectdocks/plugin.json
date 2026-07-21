@@ -2,7 +2,7 @@
   "schema": "clipdock.plugin.v1",
   "id": "effectdocks",
   "slug": "effectdocks",
-  "name": "EffectDocks",
+  "name": "Effect Dock",
   "author": "Depson",
   "category": "premiere",
   "type": "clipdock-symbiont",
@@ -48,7 +48,7 @@
   "repo": "https://github.com/depsonopsito/EffectDocks",
   "repository": {
     "provider": "github",
-    "owner": "depsonopsito",
+    "owner": "Depsoniac",
     "repo": "EffectDocks"
   },
   "links": {
