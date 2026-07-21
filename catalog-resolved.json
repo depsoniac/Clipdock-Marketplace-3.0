@@ -10,8 +10,8 @@
     "manifestFile": "plugin.json"
   },
   "ui": {
-    "eyebrow": "STORE",
-    "title": "ClipDock Store",
+    "eyebrow": "TIENDA",
+    "title": "Tienda",
     "subtitle": "Extensiones, herramientas y flujos listos para instalar",
     "searchPlaceholder": "Buscar apps, Adobe, scripts, utilidades...",
     "filters": [
