@@ -24,17 +24,18 @@
   "cepDirName": "ClipDock CEP",
   "links": {
     "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20ClipDock%20Remote",
-    "release": "https://github.com/depsonopsito/Clipdock-Remote/releases/latest"
+    "release": "https://github.com/depsonopsito/Clipdock-Remote/releases/latest",
+    "github": "https://depsoniac.github.io/ClipDock/"
   },
   "images": {
     "logo": "assets/logo.png",
     "banner": "assets/banner.svg"
   },
   "creator": {
-    "handle": "depsoniac",
+    "handle": "depsonopsito",
     "name": "Depson",
-    "github": "https://github.com/depsoniac",
-    "avatar": "https://github.com/depsoniac.png",
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png",
     "instagram": "https://www.instagram.com/depsonop/",
     "twitter": "https://x.com/depsonop"
   },

@@ -29,10 +29,10 @@
     "banner": "assets/banner.svg"
   },
   "creator": {
-    "handle": "depsoniac",
+    "handle": "depsonopsito",
     "name": "Depson",
-    "github": "https://github.com/depsoniac",
-    "avatar": "https://github.com/depsoniac.png",
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png",
     "instagram": "https://www.instagram.com/depsonop/",
     "twitter": "https://x.com/depsonop"
   },
@@ -47,6 +47,7 @@
     "assetPattern": "clipdock-postits-*.zip"
   },
   "links": {
-    "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/latest"
+    "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/latest",
+    "github": "https://depsoniac.github.io/ClipDock/"
   }
 }

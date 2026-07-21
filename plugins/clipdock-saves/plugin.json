@@ -30,10 +30,10 @@
     "banner": "assets/banner.svg"
   },
   "creator": {
-    "handle": "depsoniac",
+    "handle": "depsonopsito",
     "name": "Depson",
-    "github": "https://github.com/depsoniac",
-    "avatar": "https://github.com/depsoniac.png",
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png",
     "instagram": "https://www.instagram.com/depsonop/",
     "twitter": "https://x.com/depsonop"
   },
@@ -52,6 +52,7 @@
     "assetName": "clipdock-saves-0.1.4.zip"
   },
   "links": {
-    "release": "https://github.com/depsonopsito/clipdock-saves/releases/latest"
+    "release": "https://github.com/depsonopsito/clipdock-saves/releases/latest",
+    "github": "https://depsoniac.github.io/ClipDock/"
   }
 }

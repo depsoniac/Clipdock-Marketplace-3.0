@@ -30,7 +30,8 @@
   },
   "links": {
     "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20PR%20Hybrid%20Organizer",
-    "release": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/latest"
+    "release": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/latest",
+    "github": "https://depsoniac.github.io/ClipDock/"
   },
   "details": [
     {
@@ -55,10 +56,10 @@
     }
   ],
   "creator": {
-    "handle": "depsoniac",
+    "handle": "depsonopsito",
     "name": "Depson",
-    "github": "https://github.com/depsoniac",
-    "avatar": "https://github.com/depsoniac.png",
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png",
     "instagram": "https://www.instagram.com/depsonop/",
     "twitter": "https://x.com/depsonop"
   },
