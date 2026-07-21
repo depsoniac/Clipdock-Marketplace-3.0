@@ -17,7 +17,8 @@
   "tags": ["After Effects", "Script"],
   "images": {
     "logo": "assets/logo.png",
-    "banner": "assets/banner.png"
+    "banner": "assets/banner.png",
+    "screenshots": []
   },
   "links": {
     "support": "mailto:tucorreo@ejemplo.com?subject=Soporte%20Mi%20Plugin"
