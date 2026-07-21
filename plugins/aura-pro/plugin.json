@@ -21,7 +21,7 @@
     "Color"
   ],
   "links": {
-    "github": "https://github.com/Animateoo",
+    "github": "https://github.com/depsonopsito/Aura-Pro-main",
     "instagram": "https://www.instagram.com/animateoo/",
     "email": "mateosistema@gmail.com",
     "support": "mailto:mateosistema@gmail.com?subject=Soporte%20Aura%20Pro",
@@ -29,7 +29,10 @@
   },
   "images": {
     "logo": "assets/logo.svg",
-    "banner": "assets/banner.svg"
+    "banner": "assets/banner.svg",
+    "screenshots": [
+      "assets/hnl13ulxoaap4zo.jpg"
+    ]
   },
   "credit": {
     "by": "Animateo",
@@ -60,10 +63,10 @@
   "aeScriptFile": "Aura Pro.jsx",
   "installTarget": "After Effects > Scripts > ScriptUI Panels",
   "creator": {
-    "handle": "Animateoo",
+    "handle": "depsonopsito",
     "name": "Animateo",
-    "github": "https://github.com/Animateoo",
-    "avatar": "https://github.com/Animateoo.png"
+    "github": "https://github.com/depsonopsito",
+    "avatar": "https://github.com/depsonopsito.png"
   },
   "repo": "https://github.com/depsonopsito/Aura-Pro-main",
   "repository": {
