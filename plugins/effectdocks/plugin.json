@@ -42,18 +42,18 @@
   "creator": {
     "handle": "depsoniac",
     "name": "Depson",
-    "github": "https://github.com/depsonopsito",
-    "avatar": "https://github.com/depsonopsito.png"
+    "github": "https://github.com/depsoniac",
+    "avatar": "https://github.com/depsoniac.png"
   },
-  "repo": "https://github.com/depsonopsito/EffectDocks",
+  "repo": "https://github.com/Depsoniac/EffectDocks",
   "repository": {
     "provider": "github",
     "owner": "Depsoniac",
     "repo": "EffectDocks"
   },
   "links": {
-    "github": "https://github.com/depsonopsito/EffectDocks",
-    "release": "https://github.com/depsonopsito/EffectDocks/releases/latest"
+    "github": "https://github.com/Depsoniac/EffectDocks",
+    "release": "https://github.com/Depsoniac/EffectDocks/releases/latest"
   },
   "release": {
     "mode": "github-latest-release",
