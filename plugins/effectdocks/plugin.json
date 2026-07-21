@@ -33,17 +33,24 @@
   ],
   "images": {
     "logo": "assets/logo.svg",
-    "banner": "assets/banner.svg"
+    "banner": "assets/banner.svg",
+    "screenshots": [
+      "assets/chatgpt-image-21-jul-2026--12_17_36-a-m.png",
+      "assets/captura-de-pantalla-2026-07-21-001159.png",
+      "assets/captura-de-pantalla-2026-07-21-000848.png",
+      "assets/captura-de-pantalla-2026-07-21-000900.png",
+      "assets/captura-de-pantalla-2026-07-21-000923.png"
+    ]
   },
   "permissions": {
     "localStorage": true,
     "localhostBridge": true
   },
   "creator": {
-    "handle": "depsoniac",
+    "handle": "Depsoniac",
     "name": "Depson",
-    "github": "https://github.com/depsoniac",
-    "avatar": "https://github.com/depsoniac.png"
+    "github": "https://github.com/Depsoniac",
+    "avatar": "https://github.com/Depsoniac.png"
   },
   "repo": "https://github.com/Depsoniac/EffectDocks",
   "repository": {
