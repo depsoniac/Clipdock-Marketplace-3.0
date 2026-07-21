@@ -1,6 +1,6 @@
 {
   "schema": "clipdock.notifications.v1",
-  "updatedAt": "2026-07-21T06:14:05.349Z",
+  "updatedAt": "2026-07-21T19:24:23.932Z",
   "_comment": "Los campos cuyo nombre empieza con guion bajo son documentación para futuros mantenedores y no se muestran como notificaciones. Solo los elementos de notifications son avisos activos.",
   "_systemGuide": {
     "_comment": "Tutorial del sistema de notificaciones de ClipDock. Mantener esta guía junto al archivo para que futuras automatizaciones conozcan el contrato sin tener que deducirlo.",
@@ -112,18 +112,6 @@
     ]
   },
   "notifications": [
-    {
-      "id": "aviso-mru9c9wc",
-      "revision": "2026-07-21-1",
-      "type": "maintenance",
-      "category": "product",
-      "title": "Hola nueva notifiacion prueba ",
-      "message": "",
-      "changelog": [
-        "aqui andamos"
-      ],
-      "createdAt": "2026-07-21T06:13:27.707Z"
-    },
     {
       "id": "clipdock-2-0-release",
       "revision": "2.0.0-release-2026-07-16",
