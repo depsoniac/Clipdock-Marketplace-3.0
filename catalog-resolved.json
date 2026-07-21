@@ -509,10 +509,10 @@
         "banner": "assets/banner.svg"
       },
       "creator": {
-        "handle": "depsoniac",
+        "handle": "depsonopsito",
         "name": "Depson",
-        "github": "https://github.com/depsoniac",
-        "avatar": "https://github.com/depsoniac.png",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png",
         "instagram": "https://www.instagram.com/depsonop/",
         "twitter": "https://x.com/depsonop"
       },
@@ -527,7 +527,8 @@
         "resolvedAt": "2026-07-19T04:25:32Z"
       },
       "links": {
-        "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0"
+        "release": "https://github.com/depsonopsito/Clipdock-Postits/releases/tag/1.6.0",
+        "github": "https://depsoniac.github.io/ClipDock/"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-postits/assets/banner.svg",
@@ -585,17 +586,18 @@
       "cepDirName": "ClipDock CEP",
       "links": {
         "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20ClipDock%20Remote",
-        "release": "https://github.com/depsonopsito/Clipdock-Remote/releases/tag/1.0.1"
+        "release": "https://github.com/depsonopsito/Clipdock-Remote/releases/tag/1.0.1",
+        "github": "https://depsoniac.github.io/ClipDock/"
       },
       "images": {
         "logo": "assets/logo.png",
         "banner": "assets/banner.svg"
       },
       "creator": {
-        "handle": "depsoniac",
+        "handle": "depsonopsito",
         "name": "Depson",
-        "github": "https://github.com/depsoniac",
-        "avatar": "https://github.com/depsoniac.png",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png",
         "instagram": "https://www.instagram.com/depsonop/",
         "twitter": "https://x.com/depsonop"
       },
@@ -671,10 +673,10 @@
         "banner": "assets/banner.svg"
       },
       "creator": {
-        "handle": "depsoniac",
+        "handle": "depsonopsito",
         "name": "Depson",
-        "github": "https://github.com/depsoniac",
-        "avatar": "https://github.com/depsoniac.png",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png",
         "instagram": "https://www.instagram.com/depsonop/",
         "twitter": "https://x.com/depsonop"
       },
@@ -693,7 +695,8 @@
         "resolvedAt": "2026-07-12T06:23:17Z"
       },
       "links": {
-        "release": "https://github.com/depsonopsito/clipdock-saves/releases/tag/0.1.4"
+        "release": "https://github.com/depsonopsito/clipdock-saves/releases/tag/0.1.4",
+        "github": "https://depsoniac.github.io/ClipDock/"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/clipdock-saves/assets/banner.svg",
@@ -957,7 +960,7 @@
         "banner": "assets/banner.svg"
       },
       "links": {
-        "github": "https://github.com/depsonopsito/FX-PALETTE",
+        "github": "https://depsoniac.github.io/ClipDock/",
         "release": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/2.0.0"
       },
       "creator": {
@@ -1357,7 +1360,8 @@
       },
       "links": {
         "support": "mailto:depsoncontacto@gmail.com?subject=Bug%20PR%20Hybrid%20Organizer",
-        "release": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/tag/1.0.0"
+        "release": "https://github.com/depsonopsito/premiere-hybrid-organizer/releases/tag/1.0.0",
+        "github": "https://depsoniac.github.io/ClipDock/"
       },
       "details": [
         {
@@ -1382,10 +1386,10 @@
         }
       ],
       "creator": {
-        "handle": "depsoniac",
+        "handle": "depsonopsito",
         "name": "Depson",
-        "github": "https://github.com/depsoniac",
-        "avatar": "https://github.com/depsoniac.png",
+        "github": "https://github.com/depsonopsito",
+        "avatar": "https://github.com/depsonopsito.png",
         "instagram": "https://www.instagram.com/depsonop/",
         "twitter": "https://x.com/depsonop"
       },
