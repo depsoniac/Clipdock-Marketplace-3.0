@@ -930,7 +930,7 @@
         "After Effects"
       ],
       "minClipDockVersion": "2.0.0",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "summary": "Cambia rápidamente el color de etiqueta de varias capas seleccionadas en After Effects.",
       "description": "Panel ScriptUI para After Effects que permite aplicar colores de etiqueta a varias capas seleccionadas con un clic.",
       "installMode": "download-ae-script",
@@ -970,7 +970,7 @@
       },
       "links": {
         "github": "https://depsoniac.github.io/ClipDock/",
-        "release": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/2.0.0"
+        "release": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/3.0.0"
       },
       "creator": {
         "handle": "depsonopsito",
@@ -986,35 +986,26 @@
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": "2026-07-17T01:24:39Z"
+        "resolvedAt": ""
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/2.0.0/fx-palette-after-effects-1.0.0.zip",
-      "fileName": "fx-palette-after-effects-1.0.0.zip",
-      "sha256": "b73aa2f7b8405603546e4e07703283f1aa055493baaa001e889e0aac43b6b944",
-      "sizeLabel": "2.0 KB",
-      "package": {
-        "format": "zip",
-        "file": "fx-palette-after-effects-1.0.0.zip",
-        "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/2.0.0/fx-palette-after-effects-1.0.0.zip",
-        "sha256": "b73aa2f7b8405603546e4e07703283f1aa055493baaa001e889e0aac43b6b944",
-        "sizeBytes": 1997,
-        "sizeLabel": "2.0 KB",
-        "source": "github-release-asset",
-        "updatedAt": "2026-07-17T01:24:39Z"
-      },
+      "downloadUrl": "",
+      "fileName": "",
+      "sha256": "",
+      "sizeLabel": "",
+      "package": {},
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "FX-PALETTE",
-        "tag": "v2.0.0",
-        "url": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/2.0.0",
-        "publishedAt": "2026-07-17T01:24:39Z"
+        "tag": "v3.0.0",
+        "url": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/3.0.0",
+        "publishedAt": ""
       },
-      "available": true,
-      "releaseError": "",
+      "available": false,
+      "releaseError": "El release no contiene el asset declarado: fx-palette-after-effects-1.0.0.zip",
       "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/",
       "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/plugin.json"
     },
