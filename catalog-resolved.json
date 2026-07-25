@@ -1,7 +1,7 @@
 {
   "schema": "clipdock.registry.v2",
   "registryVersion": 2,
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-07-25",
   "name": "ClipDock Marketplace 3.0",
   "discovery": {
     "type": "folder-index",
@@ -153,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-19T04:25:32.000Z",
+  "generatedAt": "2026-07-25T18:00:21.000Z",
   "registryMode": "resolved-folder-index",
   "plugins": [
     {
@@ -921,7 +921,7 @@
       "schema": "clipdock.plugin.v1",
       "id": "fx-palette",
       "slug": "fx-palette",
-      "name": "Labels PRO",
+      "name": "Clipdock Labels",
       "author": "Depson",
       "authorLocation": "México",
       "category": "after-effects",
@@ -934,7 +934,7 @@
       "summary": "Cambia rápidamente el color de etiqueta de varias capas seleccionadas en After Effects.",
       "description": "Panel ScriptUI para After Effects que permite aplicar colores de etiqueta a varias capas seleccionadas con un clic.",
       "installMode": "download-ae-script",
-      "aeScriptFile": "Labels_Visual.jsx",
+      "aeScriptFile": "Clipdock_Labels.jsx",
       "installDirName": "fx-palette",
       "installTarget": "After Effects > Scripts > ScriptUI Panels",
       "tags": [
@@ -959,9 +959,9 @@
         }
       ],
       "instructions": [
-        "Instala Labels PRO desde ClipDock.",
+        "Instala Clipdock Labels desde ClipDock.",
         "Cierra y vuelve a abrir After Effects si estaba abierto.",
-        "Abre el panel desde Ventana > Labels PRO o Ventana > Labels, según la versión de After Effects.",
+        "Abre el panel desde Ventana > Clipdock Labels.",
         "Selecciona una o varias capas y pulsa el color que quieras aplicar."
       ],
       "images": {
@@ -986,26 +986,35 @@
       },
       "release": {
         "mode": "resolved",
-        "resolvedAt": ""
+        "resolvedAt": "2026-07-25T18:00:21Z"
       },
       "logoUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/logo.svg",
       "bannerUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/assets/banner.svg",
       "screenshotUrls": [],
-      "downloadUrl": "",
-      "fileName": "",
-      "sha256": "",
-      "sizeLabel": "",
-      "package": {},
+      "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/3.0.0/Clipdock-Labels-1.1.0.zip",
+      "fileName": "Clipdock-Labels-1.1.0.zip",
+      "sha256": "79ad8effa311eaa68d5ff107e61726ebf0f30296934a6c8144bf4d953e90f895",
+      "sizeLabel": "2.3 KB",
+      "package": {
+        "format": "zip",
+        "file": "Clipdock-Labels-1.1.0.zip",
+        "downloadUrl": "https://github.com/depsonopsito/FX-PALETTE/releases/download/3.0.0/Clipdock-Labels-1.1.0.zip",
+        "sha256": "79ad8effa311eaa68d5ff107e61726ebf0f30296934a6c8144bf4d953e90f895",
+        "sizeBytes": 2317,
+        "sizeLabel": "2.3 KB",
+        "source": "github-release-asset",
+        "updatedAt": "2026-07-25T18:00:21Z"
+      },
       "releaseInfo": {
         "provider": "github",
         "owner": "depsonopsito",
         "repo": "FX-PALETTE",
         "tag": "v3.0.0",
         "url": "https://github.com/depsonopsito/FX-PALETTE/releases/tag/3.0.0",
-        "publishedAt": ""
+        "publishedAt": "2026-07-25T18:00:21Z"
       },
-      "available": false,
-      "releaseError": "El release no contiene el asset declarado: fx-palette-after-effects-1.0.0.zip",
+      "available": true,
+      "releaseError": "",
       "remotePluginFolderUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/",
       "remoteManifestUrl": "https://raw.githubusercontent.com/depsoniac/Clipdock-Marketplace-3.0/main/plugins/fx-palette/plugin.json"
     },
