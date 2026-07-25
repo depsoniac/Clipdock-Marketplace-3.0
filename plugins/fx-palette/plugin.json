@@ -2,7 +2,7 @@
   "schema": "clipdock.plugin.v1",
   "id": "fx-palette",
   "slug": "fx-palette",
-  "name": "Labels PRO",
+  "name": "Clipdock Labels",
   "author": "Depson",
   "authorLocation": "México",
   "category": "after-effects",
@@ -11,11 +11,11 @@
     "After Effects"
   ],
   "minClipDockVersion": "2.0.0",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "summary": "Cambia rápidamente el color de etiqueta de varias capas seleccionadas en After Effects.",
   "description": "Panel ScriptUI para After Effects que permite aplicar colores de etiqueta a varias capas seleccionadas con un clic.",
   "installMode": "download-ae-script",
-  "aeScriptFile": "Labels_Visual.jsx",
+  "aeScriptFile": "Clipdock_Labels.jsx",
   "installDirName": "fx-palette",
   "installTarget": "After Effects > Scripts > ScriptUI Panels",
   "tags": [
@@ -40,9 +40,9 @@
     }
   ],
   "instructions": [
-    "Instala Labels PRO desde ClipDock.",
+    "Instala Clipdock Labels desde ClipDock.",
     "Cierra y vuelve a abrir After Effects si estaba abierto.",
-    "Abre el panel desde Ventana > Labels PRO o Ventana > Labels, según la versión de After Effects.",
+    "Abre el panel desde Ventana > Clipdock Labels.",
     "Selecciona una o varias capas y pulsa el color que quieras aplicar."
   ],
   "images": {
@@ -67,7 +67,7 @@
   },
   "release": {
     "mode": "github-latest-release",
-    "assetName": "fx-palette-after-effects-1.0.0.zip"
+    "assetName": "Clipdock-Labels-1.1.0.zip"
   },
   "enabled": true
 }
